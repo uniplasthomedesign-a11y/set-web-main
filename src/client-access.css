@@ -1,0 +1,193 @@
+.header-client-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1px;
+  flex-shrink: 0;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 3px;
+  border: 1px solid #d9e2ef;
+  border-radius: 9px;
+  background: #f6f8fc;
+  color: #254496;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.header-client-button .header-client-caption {
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 700;
+}
+.header-client-button > svg {
+  flex-shrink: 0;
+}
+.header-client-button.is-connected {
+  border-color: #bfd2c5;
+  background: #eff8f1;
+  color: #235f3c;
+}
+.header-client-button:focus-visible {
+  outline: 3px solid #ead33b;
+  outline-offset: 3px;
+}
+.customer-access-content > .lucide {
+  background: #eef2f8;
+  color: #254496;
+  border-radius: 16px;
+  padding: 13px;
+  box-sizing: content-box;
+  margin-bottom: 18px;
+}
+.customer-access-content > .text-link {
+  display: block;
+  margin: 20px 0;
+}
+.modal.customer-login-dialog {
+  max-width: 510px;
+  padding: 25px;
+}
+.customer-login-dialog .modal-title {
+  margin-bottom: 18px;
+}
+.customer-login-dialog .modal-title h2 {
+  font-size: 23px;
+}
+.customer-login-dialog .customer-access-content > .lucide {
+  width: 24px;
+  height: 24px;
+  padding: 11px;
+  margin-bottom: 6px;
+}
+.customer-login-dialog .client-dialog-heading {
+  font-size: 21px;
+  color: #254496;
+  margin: 9px 0 15px;
+  line-height: 1.25;
+}
+.customer-login-dialog .customer-access-content p {
+  font-size: 14px;
+  line-height: 1.65;
+}
+.customer-login-dialog .feature-form {
+  margin-top: 0;
+}
+.customer-login-dialog .access-input {
+  min-height: 49px;
+}
+.customer-login-dialog .access-input .pin-input {
+  font-size: 23px;
+  letter-spacing: 9px;
+}
+.customer-login-dialog .customer-access-content > .btn {
+  margin: 10px 0;
+}
+@media (max-width: 640px) {
+  .main-header > .header-inner {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr) 40px 40px;
+    grid-template-areas: "menu brand client cart" "search search search search";
+    gap: 10px 8px;
+    align-items: center;
+  }
+  .header-inner .mobile-menu {
+    grid-area: menu;
+    width: 28px;
+    min-width: 28px;
+    padding: 0;
+    margin: 0;
+  }
+  .header-inner .brand {
+    grid-area: brand;
+    min-width: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .main-header .brand img {
+    width: min(100%, 117px);
+    height: 55px;
+  }
+  .header-client-button {
+    grid-area: client;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .header-client-button > svg {
+    width: 21px;
+    height: 21px;
+  }
+  .header-inner .cart-button {
+    grid-area: cart;
+    min-width: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .header-inner .search-box {
+    grid-area: search;
+    min-width: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .modal.customer-login-dialog {
+    width: min(510px, calc(100vw - 28px));
+    padding: 21px;
+  }
+}
+@media (max-width: 760px) {
+  .topbar.brand-tagline-bar {
+    background: #254496;
+    color: #fff;
+  }
+  .topbar.brand-tagline-bar .topbar-inner {
+    min-height: 34px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .topbar.brand-tagline-bar .topbar-inner > span:first-child,
+  .topbar.brand-tagline-bar .topbar-lang {
+    display: none;
+  }
+  .topbar.brand-tagline-bar .topbar-inner > .topbar-tagline {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
+/* État de l'icône « Client » : rouge = non connecté, vert franc = connecté.
+   !important : les thèmes (classic, saisonniers) imposent déjà leurs couleurs
+   sur .header-client-button:not(.is-connected). */
+.header-client-button:not(.is-connected) {
+  border: 1.5px solid #e5484d !important;
+  background: #fff1f1 !important;
+  color: #d92d20 !important;
+}
+.header-client-button.is-connected {
+  border: 1.5px solid #17a34a !important;
+  background: #dcf5e4 !important;
+  color: #0b8a38 !important;
+}
+.header-client-button.is-connected .header-client-caption,
+.header-client-button:not(.is-connected) .header-client-caption {
+  font-weight: 800;
+}
+.header-client-button.is-connected > svg {
+  stroke-width: 2.4;
+}

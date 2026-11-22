@@ -1,0 +1,765 @@
+import { LocalAdminLogin } from "./ClientAccess";
+import { useEffect, useRef, useState, type FormEvent } from "react";
+import {
+  AlertTriangle,
+  ArrowRight,
+  Camera,
+  Check,
+  Eye,
+  EyeOff,
+  Info,
+  Layers,
+  LockKeyhole,
+  ScanLine,
+  ShoppingBag,
+} from "lucide-react";
+import { Modal, Field, ProductPhoto, Quantity, Spinner } from "./ui";
+import { navigate, useStore } from "./store";
+import { money, priceOf, findBarcodeProduct } from "./domain";
+import { palletCartonsFor } from "./palletData";
+import { maxPallets } from "./pallets";
+import * as api from "./api";
+import {
+  startScannerCamera,
+  scannerCameraMessage,
+  type ScannerCameraCapture,
+} from "./scannerCamera";
+
+export function LoginDialog({ onClose }: { onClose: () => void }) {
+  const { checkAdmin, notify, refresh } = useStore();
+  const [email, setEmail] = useState(""),
+    [password, setPassword] = useState(""),
+    [reset, setReset] = useState(false),
+    [busy, setBusy] = useState(false),
+    [visible, setVisible] = useState(false),
+    [error, setError] = useState(""),
+    [sent, setSent] = useState(false);
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
+    setBusy(true);
+    setError("");
+    try {
+      if (reset) {
+        await api.resetPassword(email);
+        setSent(true);
+      } else {
+        await api.login(email, password);
+        await checkAdmin();
+        onClose();
+        navigate("/admin");
+      }
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const preview = async () => {
+    api.enablePreviewAdmin();
+    await checkAdmin();
+    await refresh();
+    onClose();
+    navigate("/admin");
+  };
+  return (
+    <Modal
+      title={reset ? "Réinitialiser le mot de passe" : "Espace de gestion"}
+      onClose={onClose}
+    >
+      <span className="dialog-large-icon">
+        <LockKeyhole size={28} />
+      </span>
+      {api.localMode ? (
+        <LocalAdminLogin
+          onDone={() => {
+            void (async () => {
+              await checkAdmin();
+              await refresh();
+              onClose();
+              navigate("/admin");
+            })();
+          }}
+        />
+      ) : api.previewMode ? (
+        <>
+          <h3>Explorez votre tableau de bord.</h3>
+          <p className="dialog-copy">
+            Le catalogue importé est déjà renseigné. Vous pouvez tester la
+            gestion des produits, familles et commandes dans cette session.
+          </p>
+          <div className="notice amber">
+            <Info size={18} />
+            <span>
+              Connexion réelle non configurée. Les modifications d’aperçu sont
+              en mémoire et disparaissent au rechargement. Aucun mot de passe
+              fictif n’est utilisé.
+            </span>
+          </div>
+          <button
+            className="btn btn-primary full-width"
+            onClick={() => void preview()}
+          >
+            Ouvrir le tableau de bord d’aperçu <ArrowRight size={17} />
+          </button>
+        </>
+      ) : (
+        <form onSubmit={(e) => void submit(e)}>
+          <p className="dialog-copy">
+            {reset
+              ? "Saisissez l’adresse de votre compte administrateur."
+              : "Connectez-vous avec votre compte administrateur UNIPLAST."}
+          </p>
+          <Field label="Adresse e-mail">
+            <input
+              required
+              type="email"
+              autoComplete="username"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </Field>
+          {!reset && (
+            <Field label="Mot de passe">
+              <div className="password-input">
+                <input
+                  required
+                  type={visible ? "text" : "password"}
+                  autoComplete="current-password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <button
+                  type="button"
+                  aria-label={
+                    visible
+                      ? "Masquer le mot de passe"
+                      : "Afficher le mot de passe"
+                  }
+                  onClick={() => setVisible(!visible)}
+                >
+                  {visible ? <EyeOff size={17} /> : <Eye size={17} />}
+                </button>
+              </div>
+            </Field>
+          )}
+          {error && (
+            <p className="error-message" role="alert">
+              {error}
+            </p>
+          )}
+          {sent && (
+            <p className="notice success">
+              Si ce compte existe, un lien de récupération a été envoyé.
+            </p>
+          )}
+          <button className="btn btn-primary full-width" disabled={busy}>
+            {busy ? <Spinner /> : <LockKeyhole size={16} />}{" "}
+            {reset ? "Envoyer le lien" : "Se connecter"}
+          </button>
+          <button
+            type="button"
+            className="link-button"
+            onClick={() => {
+              setReset(!reset);
+              setError("");
+            }}
+          >
+            {reset ? "Retour à la connexion" : "Mot de passe oublié ?"}
+          </button>
+        </form>
+      )}
+    </Modal>
+  );
+}
+export function PasswordRecovery() {
+  const { notify } = useStore();
+  const [password, setPassword] = useState(""),
+    [confirm, setConfirm] = useState(""),
+    [busy, setBusy] = useState(false),
+    [done, setDone] = useState(false);
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
+    if (password !== confirm) {
+      notify("Les mots de passe ne correspondent pas.", true);
+      return;
+    }
+    setBusy(true);
+    try {
+      await api.updatePassword(password);
+      setDone(true);
+    } catch (e) {
+      notify((e as Error).message, true);
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <main className="container page">
+      <section className="panel recovery-panel">
+        <h1>Nouveau mot de passe</h1>
+        {done ? (
+          <p>
+            Votre mot de passe a été mis à jour.{" "}
+            <a href="#/client-agree">Ouvrir mon compte</a>
+          </p>
+        ) : (
+          <form onSubmit={(e) => void submit(e)}>
+            <Field label="Nouveau mot de passe (12 caractères minimum)">
+              <input
+                type="password"
+                autoComplete="new-password"
+                required
+                minLength={12}
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </Field>
+            <Field label="Confirmez le mot de passe">
+              <input
+                type="password"
+                autoComplete="new-password"
+                required
+                value={confirm}
+                onChange={(e) => setConfirm(e.target.value)}
+              />
+            </Field>
+            <button className="btn btn-primary" disabled={busy}>
+              {busy ? <Spinner /> : "Enregistrer le mot de passe"}
+            </button>
+          </form>
+        )}
+      </section>
+    </main>
+  );
+}
+export function ScannerDialog({ onClose }: { onClose: () => void }) {
+  const { catalog, openProduct } = useStore();
+  const [manual, setManual] = useState("");
+  const [scanning, setScanning] = useState(false),
+    [starting, setStarting] = useState(false);
+  const [message, setMessage] = useState("");
+  const [cameras, setCameras] = useState<MediaDeviceInfo[]>([]);
+  const [torch, setTorch] = useState(false),
+    [hasTorch, setHasTorch] = useState(false);
+  const video = useRef<HTMLVideoElement>(null),
+    camera = useRef<ScannerCameraCapture | null>(null),
+    startingRef = useRef(false);
+  const disposed = useRef(false),
+    found = useRef(false),
+    generation = useRef(0);
+  const stop = () => {
+    generation.current++;
+    camera.current?.stop();
+    camera.current = null;
+    startingRef.current = false;
+    setStarting(false);
+    setScanning(false);
+    setTorch(false);
+    setHasTorch(false);
+  };
+  useEffect(() => {
+    disposed.current = false;
+    const hide = () => {
+      if (document.visibilityState === "hidden" && camera.current) {
+        stop();
+        setMessage(
+          "Caméra arrêtée en arrière-plan. Réactivez-la pour reprendre la lecture.",
+        );
+      }
+    };
+    const leave = () => {
+      stop();
+    };
+    document.addEventListener("visibilitychange", hide);
+    window.addEventListener("pagehide", leave);
+    return () => {
+      disposed.current = true;
+      generation.current++;
+      camera.current?.stop();
+      camera.current = null;
+      document.removeEventListener("visibilitychange", hide);
+      window.removeEventListener("pagehide", leave);
+    };
+  }, []);
+  const match = (value: string) => {
+    if (disposed.current) return;
+    const product = findBarcodeProduct(catalog?.products || [], value);
+    stop();
+    setManual(value);
+    if (product) {
+      onClose();
+      openProduct(product.id);
+    } else
+      setMessage(
+        `Code lu : ${value}. Aucun produit correspondant. Vous pouvez réessayer ou saisir la référence dans la recherche.`,
+      );
+  };
+  const start = async (deviceId?: string) => {
+    if (startingRef.current) return;
+    stop();
+    setMessage("");
+    found.current = false;
+    if (!window.isSecureContext || !navigator.mediaDevices?.getUserMedia) {
+      setMessage(
+        "Ouvrez le site en HTTPS directement dans Chrome ou Safari pour autoriser la caméra. Vous pouvez aussi lire une photo du code ou saisir ses chiffres.",
+      );
+      return;
+    }
+    const attempt = generation.current;
+    const target = video.current;
+    if (!target) return;
+    startingRef.current = true;
+    setStarting(true);
+    try {
+      // Ask for the camera from the tap, before loading the bundled decoder.
+      const capture = startScannerCamera(target, {
+        deviceId,
+        getUserMedia: (constraints) =>
+          navigator.mediaDevices.getUserMedia(constraints),
+        onPreview: () => {
+          if (!disposed.current && attempt === generation.current)
+            setScanning(true);
+        },
+        decode: async (element, onCode) => {
+          const { barcodeReader } = await import("./barcode");
+          if (disposed.current || attempt !== generation.current)
+            throw new DOMException("Lecture annulée.", "AbortError");
+          return barcodeReader().decodeFromVideoElement(element, (result) => {
+            if (result) onCode(result.getText());
+          });
+        },
+        onCode: (value) => {
+          if (
+            !found.current &&
+            !disposed.current &&
+            attempt === generation.current
+          ) {
+            found.current = true;
+            match(value);
+          }
+        },
+      });
+      camera.current = capture;
+      const ready = await capture.ready;
+      if (!ready || disposed.current || attempt !== generation.current) return;
+      const track = capture.getStream()?.getVideoTracks()[0];
+      if (track) {
+        // Optional hardware features must never stop a working camera.
+        try {
+          const caps = track.getCapabilities?.() as MediaTrackCapabilities & {
+            focusMode?: string[];
+            torch?: boolean;
+          };
+          setHasTorch(!!caps?.torch);
+          if (caps?.focusMode?.includes("continuous"))
+            void track
+              .applyConstraints({
+                advanced: [
+                  { focusMode: "continuous" } as MediaTrackConstraintSet,
+                ],
+              })
+              .catch(() => {});
+        } catch {
+          /* Capability inspection is optional on Safari. */
+        }
+        track.addEventListener(
+          "ended",
+          () => {
+            if (!disposed.current && camera.current === capture) {
+              stop();
+              setMessage(
+                "La caméra s’est arrêtée. Réactivez-la pour reprendre la lecture.",
+              );
+            }
+          },
+          { once: true },
+        );
+      }
+      if (navigator.mediaDevices.enumerateDevices)
+        void navigator.mediaDevices
+          .enumerateDevices()
+          .then((devices) => {
+            if (!disposed.current && camera.current === capture)
+              setCameras(devices.filter((d) => d.kind === "videoinput"));
+          })
+          .catch(() => {});
+    } catch (error) {
+      if (disposed.current || attempt !== generation.current) return;
+      stop();
+      setMessage(scannerCameraMessage(error));
+    } finally {
+      if (!disposed.current && attempt === generation.current) {
+        startingRef.current = false;
+        setStarting(false);
+      }
+    }
+  };
+  const photo = async (file: File) => {
+    stop();
+    startingRef.current = true;
+    setStarting(true);
+    setMessage("");
+    const attempt = generation.current;
+    try {
+      const { barcodeFromPhoto } = await import("./barcode");
+      const code = await barcodeFromPhoto(file);
+      if (!disposed.current && attempt === generation.current) match(code);
+    } catch (e) {
+      if (!disposed.current && attempt === generation.current)
+        setMessage((e as Error).message);
+    } finally {
+      if (!disposed.current && attempt === generation.current) {
+        startingRef.current = false;
+        setStarting(false);
+      }
+    }
+  };
+  return (
+    <Modal
+      title="Scanner un code-barres"
+      onClose={() => {
+        stop();
+        onClose();
+      }}
+    >
+      <p className="dialog-copy">
+        Cadrez le code entier avec la caméra arrière. Gardez une distance de 15
+        à 25 cm, puis rapprochez doucement.
+      </p>
+      <div className={`scanner-window ${scanning ? "scanning" : ""}`}>
+        <video
+          ref={video}
+          muted
+          playsInline
+          autoPlay
+          aria-label="Aperçu de la caméra du lecteur de code-barres"
+        />
+        {!scanning && (
+          <div>
+            <ScanLine size={45} strokeWidth={1} />
+            <span>Code-barres net, bien éclairé et sans reflet</span>
+          </div>
+        )}
+        {scanning && <span className="scanner-target" />}
+      </div>
+      <button
+        type="button"
+        className="btn btn-primary full-width"
+        onClick={() => (scanning || starting ? stop() : void start())}
+      >
+        {starting ? <Spinner /> : <Camera size={18} />}
+        {starting
+          ? "Annuler le démarrage"
+          : scanning
+            ? "Arrêter la caméra"
+            : "Activer la caméra arrière"}
+      </button>
+      {starting && (
+        <p className="muted-copy" role="status">
+          {scanning
+            ? "Caméra active. Préparation du lecteur…"
+            : "Autorisez la caméra dans la demande de Chrome ou Safari. Vous pouvez annuler à tout moment."}
+        </p>
+      )}
+      {scanning && (
+        <div className="scanner-tools">
+          {cameras.length > 1 && (
+            <select
+              aria-label="Choisir une caméra"
+              disabled={starting}
+              defaultValue=""
+              onChange={(e) => {
+                if (e.target.value) void start(e.target.value);
+              }}
+            >
+              <option value="" disabled>
+                Changer de caméra
+              </option>
+              {cameras.map((c, i) => (
+                <option key={c.deviceId} value={c.deviceId}>
+                  {c.label || `Caméra ${i + 1}`}
+                </option>
+              ))}
+            </select>
+          )}
+          {hasTorch && (
+            <button
+              className="btn btn-outline"
+              onClick={() => {
+                const track = camera.current?.getStream()?.getVideoTracks()[0];
+                if (!track) return;
+                void track
+                  .applyConstraints({
+                    advanced: [{ torch: !torch } as MediaTrackConstraintSet],
+                  })
+                  .then(() => setTorch(!torch))
+                  .catch(() =>
+                    setMessage(
+                      "L’éclairage n’est pas disponible sur cette caméra.",
+                    ),
+                  );
+              }}
+            >
+              {torch ? "Éteindre" : "Éclairer"}
+            </button>
+          )}
+        </div>
+      )}
+      <label
+        className={`btn btn-outline full-width scanner-photo ${starting ? "disabled" : ""}`}
+      >
+        <Camera size={18} /> Lire une photo du code
+        <input
+          type="file"
+          accept="image/*"
+          capture="environment"
+          disabled={starting}
+          onChange={(e) => {
+            const file = e.target.files?.[0];
+            if (file) void photo(file);
+            e.target.value = "";
+          }}
+        />
+      </label>
+      <div className="or-divider">
+        <span>ou saisissez les chiffres</span>
+      </div>
+      <form
+        className="manual-barcode"
+        onSubmit={(e) => {
+          e.preventDefault();
+          match(manual);
+        }}
+      >
+        <input
+          aria-label="Code-barres"
+          inputMode="numeric"
+          required
+          value={manual}
+          onChange={(e) => setManual(e.target.value)}
+          placeholder="Ex. 6134338000013"
+        />
+        <button
+          className="btn btn-primary"
+          aria-label="Rechercher le code-barres"
+        >
+          <ArrowRight size={18} />
+        </button>
+      </form>
+      {message && (
+        <p className="notice amber" role="status">
+          {message}
+        </p>
+      )}
+      <small className="muted-copy">
+        La lecture reste sur votre téléphone. La caméra s’arrête après lecture
+        ou fermeture.
+      </small>
+    </Modal>
+  );
+}
+export function CartDialogs() {
+  const {
+    quantityProduct: p,
+    closeQuantity,
+    addCart,
+    added,
+    dismissAdded,
+    catalog,
+    now,
+    cart,
+  } = useStore();
+  const [n, setN] = useState(1),
+    [palletStep, setPalletStep] = useState(false),
+    [palettes, setPalettes] = useState(1);
+  useEffect(() => {
+    setN(1);
+    setPalletStep(false);
+    setPalettes(1);
+  }, [p?.id]);
+  const perPallet = p ? palletCartonsFor(p) : null,
+    inCart = p ? (cart.find((i) => i.product_id === p.id)?.cartons ?? 0) : 0,
+    palletMax =
+      p && perPallet ? maxPallets(perPallet, p.stock_cartons, inCart) : 0;
+  if (p && palletStep && perPallet) {
+    const count = Math.min(palettes, Math.max(1, palletMax)),
+      cartons = count * perPallet;
+    return (
+      <Modal
+        title="Acheter par palette"
+        onClose={closeQuantity}
+        className="quantity-dialog pallet-confirm"
+      >
+        <div className="quantity-product">
+          <div className="quantity-product-main">
+            <ProductPhoto image={p.images[0]} name={p.name} />
+            <div className="quantity-product-copy">
+              <span className="product-code">{p.code}</span>
+              <h3>{p.name}</h3>
+              <p>
+                Une palette = {perPallet} {p.pack_label}s
+              </p>
+            </div>
+          </div>
+        </div>
+        <p className="dialog-copy">Voulez-vous acheter par palette ?</p>
+        <Field label="Nombre de palettes">
+          <Quantity
+            value={count}
+            onChange={setPalettes}
+            max={Math.max(1, palletMax)}
+            label="Nombre de palettes"
+          />
+        </Field>
+        <p className="notice danger pallet-notice" role="alert">
+          <AlertTriangle size={16} />
+          <span>Attention achat par palette</span>
+        </p>
+        <dl className="quantity-breakdown">
+          <div>
+            <dt>Total de {p.pack_label}s</dt>
+            <dd>{cartons}</dd>
+          </div>
+          <div>
+            <dt>Total d’unités</dt>
+            <dd>{cartons * p.pack_size}</dd>
+          </div>
+          <div>
+            <dt>Total</dt>
+            <dd>
+              {money(
+                priceOf(p, now) * p.pack_size * cartons,
+                catalog!.settings.currency,
+              )}
+            </dd>
+          </div>
+        </dl>
+        {inCart > 0 && (
+          <p className="notice amber" role="status">
+            Ce produit est déjà dans votre panier ({inCart} {p.pack_label}s) :
+            la palette s’ajoute à cette quantité.
+          </p>
+        )}
+        <div className="quantity-actions">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={() => addCart(p, cartons)}
+          >
+            <Check size={17} />
+            Oui, ajouter
+          </button>
+          <button
+            type="button"
+            className="btn btn-outline"
+            onClick={() => setPalletStep(false)}
+          >
+            Non, retour
+          </button>
+        </div>
+      </Modal>
+    );
+  }
+  if (p)
+    return (
+      <Modal
+        title="Choisir la quantité"
+        onClose={closeQuantity}
+        className="quantity-dialog"
+      >
+        <div className="quantity-product">
+          <ProductPhoto image={p.images[0]} name={p.name} />
+          <div>
+            <span className="product-code">{p.code}</span>
+            <h3>{p.name}</h3>
+            <p>
+              {p.pack_size} unités / {p.pack_label}
+            </p>
+          </div>
+        </div>
+        <Field label={"Nombre de " + p.pack_label + "s"}>
+          <Quantity value={n} onChange={setN} max={p.stock_cartons ?? 10000} />
+        </Field>
+        <dl className="quantity-breakdown">
+          <div>
+            <dt>Prix de l’unité</dt>
+            <dd>{money(priceOf(p, now), catalog!.settings.currency)}</dd>
+          </div>
+          <div>
+            <dt>Prix du {p.pack_label}</dt>
+            <dd>
+              {money(priceOf(p, now) * p.pack_size, catalog!.settings.currency)}
+            </dd>
+          </div>
+          <div>
+            <dt>Total d’unités</dt>
+            <dd>{n * p.pack_size}</dd>
+          </div>
+          <div>
+            <dt>Total</dt>
+            <dd>
+              {money(
+                priceOf(p, now) * p.pack_size * n,
+                catalog!.settings.currency,
+              )}
+            </dd>
+          </div>
+        </dl>
+        <div className="quantity-actions">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={() => addCart(p, n)}
+          >
+            <ShoppingBag size={17} />
+            Ajouter au panier
+          </button>
+          {perPallet && (
+            <button
+              type="button"
+              className="btn btn-outline pallet-button"
+              disabled={palletMax < 1}
+              onClick={() => {
+                setPalettes(1);
+                setPalletStep(true);
+              }}
+            >
+              <Layers size={17} />
+              PALETTE
+            </button>
+          )}
+        </div>
+        {perPallet && palletMax < 1 && (
+          <small className="muted-copy">
+            Stock insuffisant pour une palette ({perPallet} {p.pack_label}
+            s).
+          </small>
+        )}
+      </Modal>
+    );
+  if (added)
+    return (
+      <Modal title="Produit ajouté au panier" onClose={dismissAdded}>
+        <span className="dialog-large-icon success-icon">
+          <Check size={30} />
+        </span>
+        <h3 className="text-center">Votre sélection prend forme.</h3>
+        <p className="dialog-copy text-center">{added.name}</p>
+        <div className="dialog-action-stack">
+          <button
+            className="btn btn-primary"
+            onClick={() => {
+              dismissAdded();
+              navigate("/panier");
+            }}
+          >
+            Voir le bon de commande <ArrowRight size={17} />
+          </button>
+          <button className="btn btn-outline" onClick={dismissAdded}>
+            Continuer mes achats
+          </button>
+        </div>
+      </Modal>
+    );
+  return null;
+}

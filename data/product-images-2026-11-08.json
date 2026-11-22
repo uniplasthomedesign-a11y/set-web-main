@@ -1,0 +1,6112 @@
+{
+  "version": "photos-familles-2026-11-08-v1",
+  "asset_prefix": "/assets/products/photos-2026-11-08/",
+  "products": [
+    {
+      "product_id": "9b178905-0565-5e5c-ae42-4dca679c624f",
+      "code": "B10L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ab11e2ede807755782c03778.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [
+        {
+          "url": "/assets/basin-10.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "source_files": [
+        "Bassines/00013_BASSINE_10_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "bf0b0c07-7e38-5511-8aef-3bfdb276905f",
+      "code": "B25L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dad0075129afe68d2e8181dd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [
+        {
+          "url": "/assets/basin-25.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "source_files": [
+        "Bassines/00020_BASSINE_25_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5c805c85-c40d-5c94-80b5-fe3f6c321044",
+      "code": "B28D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-569f8ea7e0c3839fd5ae085d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00037_BASSINE_DIAM_28.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "30cc3e33-8153-57ed-810c-f525c8b345ce",
+      "code": "B30D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2b27dab3f838d6bfeac6316e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00044_BASSINE_DIAM_30.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5bf0d5e4-4c2f-50a3-b374-e06954b9f9fa",
+      "code": "B35L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-facfe560a5da682ec756047a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00068_BASSINE_35_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a70fff21-eb08-5dfb-8120-7c1cbfe6e197",
+      "code": "B40D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-70c67d81f648b29e872d8315.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00075_BASSINE_DIAM_40.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "84507584-1b0e-536c-bfd8-d603b4690dd3",
+      "code": "B50L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e2e1244caa12af7f5c17394e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00099_BASSINE_50_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a9d87652-7b79-559b-9668-a6febf0a1773",
+      "code": "B65L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5c93a3f92af36f671591260d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bassines/00105_BASSINE_65_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "31afbceb-2682-5d8a-ba2d-5e377fe5e605",
+      "code": "BC1.2L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b33848379cb8ac6914ce8475.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cereales/03892_BOITE_CEREALES_1_2L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e016668a-4eb5-5dfe-8a9e-c30564d9df8f",
+      "code": "BC1.8L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ab253c94779582035be9e8a9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cereales/03908_BOITE_CEREALES_1_8L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8bcc3e74-183f-5eb7-aa0e-5b6ee13b66ca",
+      "code": "BC2.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-23beeb364c776ce78378d403.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cereales/03915_BOITE_CEREALES_2_5L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "064a02b2-b0a0-50f1-aecb-d2d81a055eec",
+      "code": "BC4L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-64ff6c5bdb74ccc6b7a64e2c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cereales/06404_BOITE_CEREALES_4L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cdb0b33c-1eb3-56c0-9d1c-d1adf55c0476",
+      "code": "BCR01",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-824c237b55b0cfdcfec03ba3.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06176_BOITE_CRYSTAL_RC01_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3c5c162f-d378-5b0a-9723-f47824953c01",
+      "code": "BCR02",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4ced0cf625f9b7756a6fc86c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06183_BOITE_CRYSTAL_RC02_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2ae1c833-144b-5306-8488-522f69c18aa6",
+      "code": "BCR03",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-07c31f002e146769bb5ef34b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06190_BOITE_CRYSTAL_RC03_250_ML_2.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "6d65caf1-2d58-57df-ab9e-3941f0b59f15",
+      "code": "BCR04",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-231533f0cb12f4e5c3815a90.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06206_BOITE_CRYSTAL_RC04_500_ML_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "13701fd8-44ee-54ed-b992-c4c68615bf39",
+      "code": "BCR05",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-223727353690f50c9f58a9e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06213_BOITE_CRYSTAL_RC05_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "390a8d67-56bf-5581-be83-12e0e3b5c06c",
+      "code": "BCR06",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a5a298e61a4723fabfde063f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06220_BOITE_CRYSTAL_RC06_MINI_01.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "213a2e38-82f3-55eb-a4c8-5aee98d0ddef",
+      "code": "BCR07",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-81178ca6c6fa951281414263.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06237_BOITE_CRYSTAL_RC07_540_ML_2.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "6164dac7-68e2-544d-9e6c-ad3fab2389f1",
+      "code": "BCR08",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eb1501d71993eabc4ac702a7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06244_BOITE_CRYSTAL_RC08_REF_01_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e0dbbc8c-866f-59d2-af29-ef0a67dc5231",
+      "code": "BCR09",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9f107587c58e03bf2dd2d776.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06251_BOITE_CRYSTAL_RC09_REF_02_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0754cd8d-2c96-51f1-ab1b-ddda070874bb",
+      "code": "BCR10",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fe9f490ab542a76307f4416f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06268_BOITE_CRYSTAL_RC10_REF_02_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cddfcb13-8c8c-57bf-a2c0-7b794b5c31f0",
+      "code": "BCR10D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-855a42a50272117273694761.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06459_BOITE_CRYSTAL_RC_10_MAXI_REF_02_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "da820a58-3e3b-5b42-9d5d-873eceb4ad02",
+      "code": "BCR11",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d8518f6dc2b5fe0978a3f158.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06275_BOITE_CRYSTAL_RC11_REF_03_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "33d01403-cbdf-5314-9bea-3d4e066576a5",
+      "code": "BCR12",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fa44b2fb63c56e77f066838.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06282_BOITE_CRYSTAL_RC12_REF_03_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f7d081e3-1e35-522d-bf80-838c61939cc1",
+      "code": "BCR13",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ba58cb424bbaf7d007a844dd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06299_BOITE_CRYSTAL_RC13_REF_04_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0cd79453-ecab-5b94-9c30-42c3120f2f13",
+      "code": "BCR14",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2cf7846af28bd97a99100691.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06305_BOITE_CRYSTAL_RC14_REF_04_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "6abeca18-675c-5394-a129-3dac1ae55cb2",
+      "code": "BCR14D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e1093d80914efe27a40d3c1b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06466_BOITE_CRYSTAL_RC14_MAXI_REF_04_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a6293dab-5635-58f1-b611-5ce0d69265c0",
+      "code": "BCR15",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-691b9e397843e8c54c302d47.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06312_BOITE_CRYSTAL_RC15_REF_05_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0e91a6d0-6a9b-56c3-a295-eb9bec1b7b52",
+      "code": "BCR16",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3d5529e781ab7af0f197e78a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06329_BOITE_CRYSTAL_RC16_REF_05_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "73fa5252-46d3-570a-b035-1f855c4d2c6a",
+      "code": "BCR17",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f8316c584fc2fccd6f5e4254.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06336_BOITE_CRYSTAL_RC17_REF_06_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "044492c1-a929-5458-a221-bd54598e84d2",
+      "code": "BCR18",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-61ba607b3ebc47e002d6cb1f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06343_BOITE_CRYSTAL_RC18_REF_06_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a6fa1250-922a-528d-b803-673222b00385",
+      "code": "BCR19",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5b1c4b54b326410aae2d5ee.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06350_BOITE_CRYSTAL_RC19_REF_07.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8d94f665-e4b6-535d-8b5a-e5974862ff65",
+      "code": "BCR20",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-70c32008ef67e97f315955e9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06367_BOITE_CRYSTAL_RC20_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3f663937-6d19-5e30-b9b4-96ccb00e8c9d",
+      "code": "BCR21CL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cf59005bb14c6df4b705f165.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/65555_BOITE_CRYSTAL_RC21_MAXI_COULEUR_REF_08.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_nonstandard_vendor_barcode_suffix"
+      ]
+    },
+    {
+      "product_id": "bf41b984-3b8b-5377-92e2-208a4363dc0f",
+      "code": "BCR21TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-39d251d94e56b601c7f123db.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06374_BOITE_CRYSTAL_RC21_TRANSPARENT_MAXI_REF_08.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0f056fc9-02ca-5f11-b30b-af8f87700cb3",
+      "code": "BCR22",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9e2a5dc509e19a6ef590438a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06381_BOITE_CRYSTAL_RC22_TRANSPARENT_80_L_MAXI_REF_09.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f1b0382b-c2e9-5354-97cf-92f62e755dcd",
+      "code": "BCR22CL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1a5153549328f84a7ba34c86.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/07739_BOITE_CRYSTAL_RC22_COULEUR_REF_09.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b3df0557-1e5c-5594-a090-9be9e0b53d0b",
+      "code": "BCRMS3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d1ad4949b38ecc65b25bae25.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06398_BOITE_CRYSTAL_SERIE_3_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "afafa45b-2a22-5de3-8661-d74dafd535ee",
+      "code": "BCRX3M",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-316c913a209b6f7b5715138a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "RC - Crystal/06046_BOITE_CRYSTAL_SERIE_3_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3f6f400a-e72c-5125-b5e1-fd20ae68a224",
+      "code": "BDC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7a46df1b0de978aae7311aec.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bol_double_couleur/02147_BOL_DOUBL_COULEUR_0_5.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "181f1d66-7fe0-5578-88bb-2c05368d52a0",
+      "code": "BE04L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5e7907eeead34637dddff307.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bonbonnes_a_eau_Amazone/07098_BONBONNE_A_EAU_04_L_AMAZONE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a9518f5c-0621-5914-8f97-f80a5c4352ee",
+      "code": "BE08L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eb0d2a0457aa0377dc02ff0f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Bonbonnes_a_eau_Amazone/07104_BONBONNE_A_EAU_08_L_AMAZONE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3730454a-0bd3-52ae-bf4e-2cb658ea81f6",
+      "code": "BECMA1250ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/02_Carree_Maxi/05759_Carree_Maxi_Ref03_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "3c99f176-cf93-566c-92fb-02a2b4415dfa",
+      "code": "BECMA2000ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/02_Carree_Maxi/05766_Carree_Maxi_Ref04_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "29894761-c471-5eca-a391-a4621eb4d97b",
+      "code": "BECMA460ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/02_Carree_Maxi/05773_Carree_Maxi_Ref01_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "63dcbcd9-f1a3-5a21-ad29-fcc8f2a64df5",
+      "code": "BECMA800ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/02_Carree_Maxi/05780_Carree_Maxi_Ref02_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "7e22124b-0989-5df6-a779-cd3a35982b89",
+      "code": "BECMI1000ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/01_Carree_Mini/05803_Carree_Mini_Ref04_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "4adc7338-ae6d-5b7f-8d7e-41b722df6f8d",
+      "code": "BECMI300ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/01_Carree_Mini/05810_Carree_Mini_Ref01_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "50e570e5-4aa3-5fe9-bbfe-bdc2dc681182",
+      "code": "BECMI450ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/01_Carree_Mini/05827_Carree_Mini_Ref02_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "e4aa2d8c-e824-5f85-beb8-f750246cb069",
+      "code": "BECMI650ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/01_Carree_Mini/06060_Carree_Mini_Ref03_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "f473f5ad-7517-59ad-aff0-644b8600df9e",
+      "code": "BECP1400ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/03_Carree_Promaxi/06008_Carree_Promaxi_Ref02_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "f44fae18-bde8-57cf-a5a2-adff578459ad",
+      "code": "BECP2100ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/03_Carree_Promaxi/05995_Carree_Promaxi_Ref03_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "a42d23c1-3c92-5bc3-8d52-abaca86ef5de",
+      "code": "BECP3100ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/03_Carree_Promaxi/05872_Carree_Promaxi_Ref04_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "117f4969-22df-52f0-aa93-e554e22b9797",
+      "code": "BECP900ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/03_Carree_Promaxi/05988_Carree_Promaxi_Ref01_Unite_CouvTransparent.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "46a189e4-3b19-5a10-8c4b-cb88ac3415ed",
+      "code": "BEGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c34dbe1e5947691376f85b4a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_a_epices/00174_BOITE_EPICE_GM_S_02.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9a3590cb-6626-5aef-8338-386930c1604a",
+      "code": "BEMMA/SC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-439b49dc79c8bd928aa4e702.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_a_epices/00198_BOITE_EPICE_MM_A_S.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ace812fc-c24f-5fc7-9406-ff4d450488b5",
+      "code": "BEPMA/SC05",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-573e2d10c18f315d4c36ec4b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_a_epices/00211_BOITE_EPICE_PM_A_S.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f5e1b238-6337-50fb-9f59-16609022a13d",
+      "code": "BER300ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/01393_Ronde_Ref01_Unite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "b2e4eb38-d167-5db4-b75e-be5dfd6ff8e3",
+      "code": "BER400ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/01454_Ronde_Ref02_Unite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "3e4a1d00-1cfe-5fe3-bc4b-35ad35ce84b9",
+      "code": "BERMA1000ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/06_Rectangle_Maxi/05209_Rectangle_Maxi_Ref03_Unite_CouvBleu.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "2bc62ff8-cce3-59a1-b403-efea6153eea2",
+      "code": "BERMA400ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/06_Rectangle_Maxi/05131_Rectangle_Maxi_Ref01_Unite_CouvBleu.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "aeffe2c4-e385-573a-b957-d20acc4bdd3d",
+      "code": "BERMA650ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/06_Rectangle_Maxi/05232_Rectangle_Maxi_Ref02_Unite_CouvBleu.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "67c312ea-1700-57d5-a039-bacf2e6125fc",
+      "code": "BERMAS400ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/06_Rectangle_Maxi/05681_Rectangle_Maxi_Ref01_S4_CouvBleu.png",
+        "Emballage/S4_Vues_emboitees/05681_Rectangle_Maxi_Ref01_S4_Emboite_CouvBleu.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "cb79a138-bb24-526b-84a9-15b4057c45c5",
+      "code": "BERMI300ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/05_Rectangle_Mini/04059_Rectangle_Mini_Ref01_Unite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "ae4d5de9-a3c1-5079-aa3d-dbac5a259219",
+      "code": "BERMI480ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/05_Rectangle_Mini/05698_Rectangle_Mini_Ref02_Unite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "ef3c83aa-9e5b-5eef-988a-1fa410aa1753",
+      "code": "BERMI730ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/05_Rectangle_Mini/05124_Rectangle_Mini_Ref03_Unite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "646344fb-bb26-51e7-8057-a07c28031cef",
+      "code": "BERMIS300ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/05_Rectangle_Mini/05056_Rectangle_Mini_Ref01_S4_CouvGris.png",
+        "Emballage/S4_Vues_emboitees/05056_Rectangle_Mini_Ref01_S4_Emboite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "a8e5e805-bc09-55af-9690-293845c25a50",
+      "code": "BERMIS480ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/05_Rectangle_Mini/05674_Rectangle_Mini_Ref02_S4_CouvGris.png",
+        "Emballage/S4_Vues_emboitees/05674_Rectangle_Mini_Ref02_S4_Emboite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "2dbcbca3-71c4-5fc0-9101-82f2cf7c47d6",
+      "code": "BERS300ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/08507_Ronde_Ref01_S4_CouvGris.png",
+        "Emballage/S4_Vues_emboitees/08507_Ronde_Ref01_S4_Emboite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "c26a46d5-65a4-5fdb-9bd3-0b1702c34eff",
+      "code": "BERS400ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/08514_Ronde_Ref02_S4_CouvGris.png",
+        "Emballage/S4_Vues_emboitees/08514_Ronde_Ref02_S4_Emboite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "ecfa1715-2173-55a2-aa65-c15f3d87ac20",
+      "code": "BERS500ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/08521_Ronde_Ref03_S4_CouvGris.png",
+        "Emballage/S4_Vues_emboitees/08521_Ronde_Ref03_S4_Emboite_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count",
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "39cb695a-5942-511d-a48b-e3cd8f458f79",
+      "code": "BERS750ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Emballage/04_Ronde/01201_Ronde_Ref04_S3_CouvGris.png"
+      ],
+      "match_evidence": [
+        "unique_packaging_shape_reference_and_exact_set_count"
+      ]
+    },
+    {
+      "product_id": "2e15e92a-96d6-5c36-8a18-727aa820e267",
+      "code": "BM1.6P",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7766ff3d2173a9858c686ff9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Miami/08200_BOITE_MIAMI_GM_REF_03_AVEC_PASSOIRE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "35324ad1-0a17-5e38-8d34-a90cb910ae56",
+      "code": "BM1250C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d4c80c29f57e307c25a5afbe.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08361_BROC_EL_MORJENE_COLORE_1250_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "54e96204-c147-59a3-8f81-5c44c71526b9",
+      "code": "BM1250D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6d9c5282b4ec7f01fc48ee69.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08248_BROC_EL_MORJENE_DECORE_1250_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "12e3f972-0e5e-5af1-b06c-aa0bbb650b17",
+      "code": "BM1500C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2a2f21f46a1f40e0efd00e9b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08323_BROC_EL_MORJENE_COLORE_1500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b101437e-479d-51b7-beb2-cc7c5d492089",
+      "code": "BM1500SC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f759f95978dc2ab3e9cce5fd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08347_SERVICE_BROC_EL_MORJENE_COLORE_1500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c557203d-02d0-5ed8-9a95-4c587b51f2ba",
+      "code": "BM1500ST",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-870a2c553a79a432ceb72467.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08354_SERVICE_BROC_EL_MORJENE_TRANSPARENT_1500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0ffc443a-a5c9-5cf1-8f1c-2e9d27dee785",
+      "code": "BM1500T",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cb4abb51de168fbaffaf4818.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Brocs_et_services_El_Morjene/08330_BROC_EL_MORJENE_TRANSPARENT_1500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b56c1a0f-68ab-5327-81f4-ec7721688995",
+      "code": "BMM1L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-954d9599145c002bff3ed975.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Miami/07173_BOITE_MIAMI_MM_REF_02.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "6ab3c23b-506f-5382-87aa-40b28df189e5",
+      "code": "BMP0.6L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-345bf003ecff4e998fa638b8.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Miami/07975_BOITE_MIAMI_PMV_REF_01.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5dfb3751-097f-50d5-87db-c95788df979a",
+      "code": "BN0.3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5798c57e9ea88000d7d3c193.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Nedjma/00266_BOITE_NEDJMA_0_3_LX2.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "1c7bbcf9-b4ca-5a89-a01b-33cc9d1af386",
+      "code": "BNS4",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-304a4ce1bcf273cfe64573e9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Nedjma/00303_BOITES_NEDJMA_S4.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8113613e-e731-5871-ab06-da21f4a6b0ba",
+      "code": "BRFT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-99151a79cb9648348472c970.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tassili/07302_BOITE_RANGEMENT_FRIGO_TASSILI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c62734a7-99d7-583d-a912-48103f71813d",
+      "code": "BRFTC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-843a05f38903cb78ce5e856f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tassili/07562_BOITE_RANGEMENT_FRIGO_TASSILI_COMPARTIMENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b338ddb0-6f93-5cd0-963a-f35db2f60922",
+      "code": "BS",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-38c61ac9a760c56af7d97e1c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [
+        {
+          "url": "/assets/lunchbox.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "source_files": [
+        "Boites_sandwich/05148_BOITE_SANDWICH.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_missing_catalogue_barcode"
+      ]
+    },
+    {
+      "product_id": "73e7044f-8565-59d7-9a93-45da24ac2ead",
+      "code": "BS S/D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-43af7d623c737c98d9a3b267.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_Sabira/08217_BOITE_SABIRA_S_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "380634a1-8860-5a2b-8178-c3dd5803bc04",
+      "code": "BS0.3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-bd719aaa091dfe18e98e836c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/01720_BOITE_SHEMS_0_3_LX2.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "eac779e4-bf53-5992-8675-19c868360e50",
+      "code": "BS0.3S5",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9e2b28ddda3ad04df54648b7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/08415_BOITE_SHEMS_0_3L_SERIE_05.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e8bf2ddc-1969-53db-9b72-3ff66bbb112e",
+      "code": "BS0.5",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d48e31e1d8c1fba6228e48e0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/01737_BOITE_SHEMS_0_5_LX2.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "67f81fbf-5667-541f-8618-c5fc0ea8cb3c",
+      "code": "BS0.5S4",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-364ef56c955dd6ba9e25dead.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/08422_BOITE_SHEMS_0_5L_SERIE_04.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9b83e358-758c-5aab-b16a-c56e02f05429",
+      "code": "BS1L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1a895fc986068314789237f9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/00112_BOITE_SHEMS_1_L_X_2.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a1d32bf5-16cc-5b58-8785-a91b1e8d4470",
+      "code": "BS350",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d505a181b144c99c386babde.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Swing/08156_SWING_350_ML_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0f4d9a5a-ae4d-5093-8f76-d8a51345369a",
+      "code": "BS600",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8656aa50ac6871378af5f33c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Swing/05163_SWING_600_ML_MM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8754a221-37af-5cc7-a3a2-649ce1cb00df",
+      "code": "BS980",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-03018f083e1899c15acad9c5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Swing/08118_SWING_980_ML_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ff4846fe-98a5-5dbc-a8ea-916b37a0a7ee",
+      "code": "BSC 2500ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-be798e5d715f375db851e1a9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07159_SPINNER_CARREE_2500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4f6de43f-65c7-5432-82d5-5c878e0da414",
+      "code": "BSC1480ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8e323568b369706ec4d6d70a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07135_SPINNER_CARREE_1480_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9e8643aa-7e9e-5790-9b01-5c8e40d1d3d1",
+      "code": "BSC580ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9697f1253a7789eecf372165.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07142_SPINNER_CARREE_580_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f91a4282-dd59-5196-88b6-818b9f18122c",
+      "code": "BSD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8aa7cecf7ff76405e3eb7ad6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_Sabira/06411_BOITE_SABIRA_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "90fe0edc-abed-5e49-a437-ac0e5496e992",
+      "code": "BSD0.3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0c0c93a8cdd997dd45da861c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/06794_BOITE_SHEMS_0_3L_X_2_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ae33cf2e-a7d8-52c0-9895-a34d0c22ceae",
+      "code": "BSD0.5",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2482ac8397b3642af1b0eae.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/06787_BOITE_SHEMS_0_5L_X_2_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9ae4262b-debb-5781-aa56-734435cacd34",
+      "code": "BSD0.5S3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e5b7d7b96a0dcba30481cab7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/08446_BOITE_SHEMS_0_5L_DECOREE_SERIE_03.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "aee919af-17cc-548f-a61a-7f948704ab09",
+      "code": "BSD1L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d2e99c5834a9f28552d0ce4b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Shems/06770_BOITE_SHEMS_1L_X_2_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d0247da0-766c-5a4f-8828-d81a61f8e1dd",
+      "code": "BSMM1200",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-daec46193a19769297354a75.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Sahla/08132_SAHLA_1200_ML_REF_02.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3ce5c498-2781-5097-9675-34365c7d7ca2",
+      "code": "BSMM1900",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c2fed6b2678ad014ed1dd3ac.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Sahla/08149_SAHLA_1900_ML_REF_03.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "fd0c7e54-fb93-5e9f-99ee-6c86f55bcd82",
+      "code": "BSMM750",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f6307d45bf485e46ae53c28f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Sahla/08170_SAHLA_750_ML_REF_01.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0cd71f91-fb24-5329-b24a-d63248ea968a",
+      "code": "BSMMS2",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a449c04da8a2b06f44e59c07.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Sahla/08460_SAHLA_SERIE_02_750_ML_1200_ML.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "d39c74a7-edb6-5986-99df-9d51f507a0a2",
+      "code": "BSR1",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4f1e727490e5c15e7563069c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/04981_BOITE_STAR_R01.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "fa43469d-d1eb-5e5c-a1b4-76c45a643175",
+      "code": "BSR10",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a8551bc02d51e0e2e40218a0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/06732_BOITE_STAR_MAXI_R10.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "43ac2bbe-31da-53f9-94b3-10b37816f0ca",
+      "code": "BSR1250ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d51569fea5e171ed380aebb5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07272_SPINNER_RONDE_1250_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b5920491-37a2-5c5c-a7ac-60bed8a5d258",
+      "code": "BSR2",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-508058484e5876b649d1a94b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/04998_BOITE_STAR_R02.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3ba29951-141c-5c16-a83a-051bbc55243a",
+      "code": "BSR2030ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-aff5389657f2b01a0e01de1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07203_SPINNER_RONDE_2030_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7d378db5-bb8a-5e7d-8093-87d9a991b361",
+      "code": "BSR3M",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b9e65fd4d635dd9a16bc835c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05025_BOITE_STAR_R03_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "08352dab-e2e2-5182-a6e3-1492fde8e3ea",
+      "code": "BSR4",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4fef5c2a4cfee06315627129.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05001_BOITE_STAR_R04_MINI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e8330c7d-72da-5a6a-bf59-5c72d2056420",
+      "code": "BSR4M",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2b98a32768a8d5db8449fe2c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/08040_BOITE_STAR_R04_MAX.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5ce5662e-b690-53fe-927c-5355c29df92a",
+      "code": "BSR5",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7c04ccb79adbb1f0dbfc6865.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05018_BOITE_STAR_R05.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "80dfe16b-58a9-537a-9768-db0b2f9066bd",
+      "code": "BSR580ML",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ceaff17b54450281a1655774.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Spinner/07289_SPINNER_RONDE_580_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2eb346e1-ce63-577b-b45f-74de9233809b",
+      "code": "BSR6",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-509e0f0476affb097782df02.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05421_BOITE_STAR_R06.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "08a281c5-b0a3-5983-83f5-00ade3eb50d8",
+      "code": "BSR7",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a25e2f0ece8d48542194e5a5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05438_BOITE_STAR_R07.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "6b228a55-1a00-52a8-8d9d-7bc7b0eebea8",
+      "code": "BSR8",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a40f11310cf0f24824b9374c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/05414_BOITE_STAR_R08.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "433cf763-85f1-506a-bb6c-bd5f33d42e09",
+      "code": "BSR9",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d7711692dd98ba02c5be51f6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Star/06725_BOITE_STAR_R09_MAXI.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "90631d7e-c88a-5f64-b8ad-85d7c0c1bf19",
+      "code": "BSS/3",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-60fdadb2f99a23a6edfc74ab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Swing/08453_SWING_S_03.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "745c16be-7299-5b1e-ada3-2364f7ef7c90",
+      "code": "BTMM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-76f83408682825dab1d716d1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_a_epices_Tawabil_Maghnia/08125_BOITE_TAWABIL_MAGHNIA_MM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c0fa51fa-736e-5ecc-ad36-3d7c80022114",
+      "code": "BTPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c2bb053c16d7e1f786ac99a3.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Boites_a_epices_Tawabil_Maghnia/08101_BOITE_TAWABIL_MAGHNIA_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4fb6a73c-53cf-5e57-b4cf-feb11e37a59a",
+      "code": "BYBLOS",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d3c57a446de12e676dd8803.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Seche_linge/03595_SECHE_LINGE_BYBLOS.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "99e637c5-a88a-5909-ad73-776e059233f4",
+      "code": "C03E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-57774613dc7fdd6b34997941.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chariots_Cargo/04967_CHARIOT_CARGO_03_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f2a76617-7c82-545f-a7da-b6e5409fdbf0",
+      "code": "C04E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0f0d550bfd2e0b13bca1a8a2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chariots_Cargo/06473_CHARIOT_CARGO_04_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0cf757e5-4137-5507-80dc-cc03c0055556",
+      "code": "C05C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dfe6c53b05bd61c03a0587b5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/04219_CLIPSO_05L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "21e26f0e-9240-5dd2-8ac5-0c25f190da8e",
+      "code": "C05T",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3b127cb6e206a25149c0aab6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/03809_CLIPSO_05L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8a9a9cff-5356-5ed3-93e8-b3c1fa1b5a30",
+      "code": "C10C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac8f2ca9345f5a9e6b0b009f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/00839_CLIPSO_10L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4bf10163-eba5-51e1-9249-91b93fab29eb",
+      "code": "C10T",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ee081a576b04a64f40d0c12d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/04189_CLIPSO_10L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "df821183-bba7-551a-b377-da5b4f2b99f7",
+      "code": "C15C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6f141e67d2d57c1480a60813.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/04226_CLIPSO_15L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5769bac4-0bcc-5892-8dd4-c211247b0286",
+      "code": "C15T",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ffaa621e016af9ccc2e2fc18.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/08392_CLIPSO_15L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cb9e5ec1-00f0-552c-9311-c907a541722d",
+      "code": "C20C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f4f614079a0ab17f006de419.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/04233_CLIPSO_20L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "12f6bac9-88b2-5b95-a0cc-cb39dc2d4bd8",
+      "code": "C20T",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f7a7edec55fc40c889bfa114.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Clipso/04196_CLIPSO_20L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d13e25d2-cd2a-5331-bade-c1e62993bfa2",
+      "code": "CA04L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eae7260f501703491516d02f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Andalous/06664_CORBEILLE_ANDALOUS_04L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2812ce9c-a1c5-5b18-8368-c260b3752909",
+      "code": "CA09L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-80b8e17466b5c9f14bd6e46a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Andalous/06671_CORBEILLE_ANDALOUS_09L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4f8b5c26-e063-5648-b373-d3e62a8bcd8c",
+      "code": "CA20L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e53496dadd1b61099b0fc750.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Andalous/06657_CORBEILLE_ANDALOUS_20L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "6c831003-0141-508c-9e53-440a88a69f97",
+      "code": "CA50L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b6db915c20ab51d82a902359.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Andalous/06695_CORBEILLE_ANDALOUS_50_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "426bd47c-eaf1-5de5-8522-a3750f105baf",
+      "code": "CAPD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-867baa875468be53674e7e6d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_pinces/04592_CORBEILLE_A_PINCE_DENTELLE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "582adbd7-576d-5d76-88da-fd1af89d8a23",
+      "code": "CB3E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-21be75047d5b6dae1b70e64c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Brico/05094_COMMODE_BRICO_3_ETAGE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "36b62005-15b1-5ccd-bf60-2daea72ed6fd",
+      "code": "CB4E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d9da32a305c805862c57f130.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Brico/05100_COMMODE_BRICO_4_ETAGE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9e2f6c1b-de51-5a69-8529-3724b5b6afa1",
+      "code": "CB5E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-59cdfccf6d5519d88be041dc.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Brico/05117_COMMODE_BRICO_5_ETAGE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "38b3d6dc-34b4-5d20-ad3b-32fbdbe43c12",
+      "code": "CBT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b6ff41fdd7cd6949e7954753.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Bahdja/06510_COMMODE_BAHDJA_TRESSE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f9a4c58d-06d7-545c-b0ff-c947e1f95963",
+      "code": "CC110MM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-82b8390acf891f1807507037.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cintres_et_porte_cintres/07401_CINTRE_CEINTURE_MULTI_USAGE_110_MM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4b5e5579-d9c7-5726-9a6d-e4274f146c14",
+      "code": "CC3E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-26a8befbbbaa48d59b3cce21.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chariots_carres/00433_CHARIOT_CARRE_03_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d4b4c3b2-cbce-5074-a467-eedf9f18c17d",
+      "code": "CC4E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8a6849ed9d2214b5c8fcb337.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chariots_carres/00440_CHARIOT_CARRE_04_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b99bf0d8-243c-5f4a-ab50-8d36e7754742",
+      "code": "CD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-abc32746bc8bc78d7b6ffe19.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuilleres_a_dosage/06688_CUILLERE_A_DOSAGE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8512863b-f48c-5c2a-9555-5b88ce60f059",
+      "code": "CE4L3/E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7441644bab5579b88f5d465a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Etagere/07821_CORBEILLE_ETAGER_4L_03_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "308f70a7-fe62-54d2-80c5-ef9e70816b06",
+      "code": "CED",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-728b30d6c900288458cbbeac.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises_enfant/00372_CHAISE_ENFANT_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "543a3b18-f2af-5f4b-a553-d1f756ec5c54",
+      "code": "CED10",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c79263bb251712ac78b0fc52.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Elegance/00884_COMMODE_ELEGANCE_DECOR_REF_10.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "f5095a41-7ee7-5049-931c-cd1c45424cbd",
+      "code": "CED21",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9a33a06cc251b93ade94f8be.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Commodes_Elegance/03236_COMMODE_ELEGANCE_DECOR_REF_21.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "5cd83fa2-752d-5550-931c-f81b0fccc482",
+      "code": "CF",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0da4f25f34c1812d733b9562.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Ferdaous/06589_CORBEILLE_FERDAOUS.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f83cb512-b349-50a4-b5c4-7bb10be4ea76",
+      "code": "CF320MM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-36753f98964e05327fc640c6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cintres_et_porte_cintres/07418_CINTRE_FOULARD_MULTI_USAGE_320_MM.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "66aeafe5-5ed2-5436-b5f1-407d7dd686d0",
+      "code": "CFB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-03b430ee70a3d38f218fde06.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/00396_CHAISE_FAUTEUIL_BLANC.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5d3f41df-f20e-5129-a0f5-9661be195199",
+      "code": "CFC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-69938c3a91edc7acf07a8948.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/02178_CHAISE_FAUTEUIL_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a849b5f6-0da9-5411-9a08-cbe39d13caa4",
+      "code": "CK2L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0304c4f2326c3759a5681ec7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Cake/07517_CORBEILLE_CAKE_2L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "956ba8be-588e-559b-b0cb-9da8782b60a4",
+      "code": "CLGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-07bce05ea7952235d174e0e6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_linge_rondes/01027_CORBEILLE_A_LINGE_RONDE_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "76540547-cbea-5fcf-8b23-5b08a79affae",
+      "code": "CLMM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46159e1bd5bf18073d65494f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_linge_rondes/01034_CORBEILLE_A_LINGE_RONDE_MM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "899e14a0-88eb-5b76-ac31-e913322dee08",
+      "code": "CLPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8a37c13e138210dc5ef1315f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_linge_rondes/01041_CORBEILLE_A_LINGE_RONDE_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d9d864b6-4edf-59c7-97fe-28b1fabdbfdf",
+      "code": "CLRGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ec4079ccf522164a14099625.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_linge_rectangulaires/01065_CORBEILLE_A_LINGE_RECT_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8b7148bd-516e-536b-80a3-1bcb4dbbc960",
+      "code": "CLRPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-21e7ae226e160b96d0295e02.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_a_linge_rectangulaires/01089_CORBEILLE_A_LINGE_RECT_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "77fe47ce-55a6-5914-b572-6b2c3951200a",
+      "code": "CM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-519b39ee72ca9fb5dcc9d637.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Milano/06541_CORBEILLE_MILANO.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0ed66e13-7080-5018-a3cf-9df59dc910b4",
+      "code": "CN",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-91cca5018af723efc8bce579.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Nour/06572_CORBEILLE_NOUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "4f0d804c-2e3b-51bc-9016-f957813e2ade",
+      "code": "CP370*340",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-581d80d0866130d7c437a2ad.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cintres_et_porte_cintres/07760_CINTRE_PANTALONS.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "31305a93-90cf-567d-af6f-78c2d5b67f54",
+      "code": "CPC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c85034332f308cff23e93909.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/00358_CHAISE_DE_PLAGE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b7aa1c28-9689-58d8-96d1-afbcffbbd69c",
+      "code": "CPD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a0d6670da35142c13618282b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/05070_CHAISE_DE_PLAGE_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "fed9b4be-4998-571d-9736-de8b5533437d",
+      "code": "CPLB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-08b8b2408b38d82a85b2bb98.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/02192_CHAISE_PLIANTE_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "41a4a4ab-3c3b-5a23-86b8-5f795e3e130c",
+      "code": "CRB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-555b8c93e35fa12f0f5324c4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Chaises/02208_CHAISE_ROYALE_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7d92eb2a-3b61-5b63-a71e-e08df0a00df1",
+      "code": "CS10L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7010dc402b52410184680ef7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Square/07784_CORBEILLE_SQUARE_10L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9405ca4f-8379-52fe-a3be-57cf36b61ce8",
+      "code": "CTD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a3aa87a031792e31c016a3c6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Ustensiles_Tete_dor/07210_CUILLERE_TETE_DOR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d8f7ea97-b912-527d-9be3-ac9be73ce92a",
+      "code": "CUV10",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ce42bb1b4f7ac862ce4723c5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_simples/01706_CUVETTE_10.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "13bf02a9-2ff0-5885-b8c3-79442ebba91a",
+      "code": "CUV20",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1f5b1c99aab6f76033963ebd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_simples/01096_CUVETTE_DIAM_20.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "67464a54-8dca-50b7-bafd-285508f0ed1b",
+      "code": "CUVA/C24",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-760ef4885c773ce0447e18e0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/03991_CUVETTE_DIAM_24_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "da2f8e93-b8aa-502e-aee5-b77783235fe7",
+      "code": "CUVA/C28",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0758e109054d51eb7d31026d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/04004_CUVETTE_DIAM_28_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7d9b63b1-3492-5793-a42e-d9c66f369549",
+      "code": "CUVAC20",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b688cf1ad5ed9add0dbc1651.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/03984_CUVETTE_DIAM_20_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ba4f2375-a1df-5e2a-919b-4815263d5524",
+      "code": "CUVGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-59062be9572574c607eea1b2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/02222_CUVETTE_DIAM_40_GM_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "449b1dbc-b7e4-5950-b375-92b89059945e",
+      "code": "CUVMM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7c911848a512037346027156.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/02239_CUVETTE_DIAM_36_MM_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5c08a23f-9180-5a36-8005-c51fa8a1d881",
+      "code": "CUVP",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f7186544cad9a8d256a4f749.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvette_avec_passoire/05261_CUVETTE_DIAM_24_PASSOIRE_2_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "71f55014-8c36-5986-ab7d-7e3f2bbb97ef",
+      "code": "CUVPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ae9f14036a5cdd40fcfdaffd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cuvettes_avec_couvercle/02253_CUVETTE_DIAM_32_PM_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c21b419f-0ef2-545b-ac7e-0a69a1df4fee",
+      "code": "CUVS3GM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ce77cc6799e5473c3f423336.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Series_de_cuvettes/08385_CUVETTE_S_3_28_32_36_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c70eefcf-ca2f-5290-889f-c73baf2c5531",
+      "code": "CUVS3PM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9e07cb6e44675362dcfe4fb4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Series_de_cuvettes/08224_CUVETTE_S_3_20_24_28_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "eb17030e-f068-5bfe-bac1-b36b2c026c9a",
+      "code": "CW10LA/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-59a0779c678d3c50ff7b75b9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/07449_CORBEILLE_WAHA_10L_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7a4568e7-2770-5b39-8ed9-a9c0c5343784",
+      "code": "CW10LS/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-156240f7d13f9e1e78bfe197.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/07456_CORBEILLE_WAHA_10L_S_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "514e44b4-27af-5173-893c-7f359b2d5061",
+      "code": "CW21LA/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-39c3f2d7aa9005c0f7f0c0e3.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/00822_CORBEILLE_WAHA_21L_AC.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3334670f-b94a-5642-ac3e-72af60d57c6e",
+      "code": "CW21LS/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ba05edb3ff969019994f779e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/01379_CORBEILLE_WAHA_21L_S_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d435e414-05df-5ac6-8675-6b068248e44e",
+      "code": "CW4LA/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d9d3bb216dc49b5d9e0a5e54.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/07845_CORBEILLE_WAHA_4L_A_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "1e9456f4-71c8-5390-bb39-7baf4d9936e2",
+      "code": "CW4LS/C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-19853c4300a36068a7daa634.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Corbeilles_Waha/07838_CORBEILLE_WAHA_4L_S_C.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5bb677c3-3049-54c6-a9f3-81c35ab73c8b",
+      "code": "DSL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0c136a0b837f9c0be359262b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Home_Design_salle_de_bain/08231_DISTRIBUTEUR_SAVON_LIQUIDE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ed02c283-6a83-501d-a0fb-de20cfdfc370",
+      "code": "EC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b2f0eaedab2bbcbd0c54efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [
+        {
+          "url": "/assets/spinner-color.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "source_files": [
+        "Essoreuses/01218_ESSOREUSE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "331f3dae-d982-5c74-ae15-0969d722d076",
+      "code": "EF1.8L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7b531ddcf2f7ab09ba4bb9c4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Egouttoir_a_fourchettes/07388_EGOUTTOIR_FOURCHETTE_PERFOREE_1_8L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "74960965-c02e-5843-a621-b8a201611137",
+      "code": "EL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-be233c8343f2346db809621c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Egouttoir_Leo/07296_EGOUTTOIR_LEO.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9c7606d7-f84d-5217-af64-eb16e8f0796d",
+      "code": "ET",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a62e3c68b95c22b105a228a0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Essoreuses/01225_ESSOREUSE_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "783a2f83-7741-5934-aa54-fdb715e316c4",
+      "code": "ETV",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-02deb534f330250187202959.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Essuie_tout_Vaiana/06930_ESSUIE_TOUT_VAIANA.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "53131373-7b47-57fe-8fde-a39d43fcc52a",
+      "code": "FO1.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fdcaae551153c2668580e5ff.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/02_Formule/07531_Formule_1-5L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "2b415ac4-f468-5fe9-baab-923f206f7891",
+      "code": "FO1.6L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e86677646177533082b18aad.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/01_Formule_Maxi/08002_Formule_Maxi_Ref01_1-65L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "34ef52af-7cab-51b9-a6e9-85d02e22670f",
+      "code": "FO2.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c5de22f49e1b07afa3356d56.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/02_Formule/07548_Formule_2-5L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "afb1e931-2067-580a-89e7-a0788ce5c1a1",
+      "code": "FO2L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d1f2c021f5115d0fa7dae522.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/01_Formule_Maxi/07999_Formule_Maxi_Ref02_2-05L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "97f5a0ad-fd0f-529f-b2f0-6c14b687fda3",
+      "code": "FO3L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ee522473f3e6a4cab74731fa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/01_Formule_Maxi/07982_Formule_Maxi_Ref03_3-05L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "7c7d7ec8-4c66-57f9-a974-4af581ca2bb2",
+      "code": "FO4L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b153680074d83d4ec078a9d9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/02_Formule/07166_Formule_4L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "d5463cfb-50bc-570c-b258-9fe5e540bb04",
+      "code": "FO5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6d2dbc3864f9693f1b997f18.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/01_Formule_Maxi/08019_Formule_Maxi_Ref04_5-15L.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "736e9b23-ba68-5c14-a886-c6509e0369b7",
+      "code": "GO380",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e5c4a6c0c1ade77e0c3045b9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Gourdes/07470_GOURDE_380_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e26daf61-21e4-5bad-a8c2-f8f2cc406df9",
+      "code": "GO500",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-00da66f766a422f71d8e83b0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Gourdes/08095_GOURDE_500_ML.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "716fb32f-c866-59df-bda4-4be7d6f5eb47",
+      "code": "GS6",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3075f88170a94f017353233.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Gobelets_S6/05278_GOBLET_S6.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b2ffecea-02ef-5d11-b386-4491b9af75b8",
+      "code": "KB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6524bf165205c062bf4caee4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Home_Design_salle_de_bain/06169_KIT_DE_BANIO.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "31902b07-fd4f-5fa3-989f-060cc2073516",
+      "code": "LCTD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-52405b9b5101da5846c05a02.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Ustensiles_Tete_dor/07678_LOUCHE_CUILLERE_TETE_DOR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c33f454f-d4bd-5b0c-a9cc-cf17edbb159c",
+      "code": "LTD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-48437fdd60af2e830376d2ca.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Ustensiles_Tete_dor/07364_LOUCHE_TETE_DOR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e4a64616-3cd3-5bcd-a325-443c98829987",
+      "code": "M41B",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0bf223dd5f3909e9e8c2338c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_fixes/07050_MAIDA_PIED_FIXE_RONDE_41_CM_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "57ae4117-44ab-5725-a7e4-6a17d8896814",
+      "code": "M41C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a3d25f2727abf2ce93dc888a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_fixes/07340_MAIDA_PIED_FIXE_RONDE_41_CM_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cd940e3d-736b-57b0-9839-e18f6fa13c0f",
+      "code": "M42B",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-60fe12f90b670c0861ff9ce9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_carrees_a_pieds_fixes/01621_MAIDA_PIED_FIXE_CARRE_42_CM_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9c91e99b-2356-557d-96c5-c2da3b32d1b8",
+      "code": "M42C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dec8c5513cc9274fbb257628.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_carrees_a_pieds_fixes/00419_MAIDA_PIED_FIXE_CARRE_42_CM_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e42ff6a4-2fb2-51f2-875c-ae8e3f4b00ea",
+      "code": "M60B",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-438e6b674f32cd026ad6a2c8.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_fixes/01270_MAIDA_PIED_FIXE_RONDE_60_CM_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d2ba45c3-b146-52d7-bb96-14acbbb9b267",
+      "code": "M60D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9d1d8c99690eb43bf72ca261.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_fixes/01256_MAIDA_PIED_FIXE_RONDE_60_CM_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d968466b-4e7a-52f1-9852-5889f67d0b66",
+      "code": "M65B",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9f1a2c98f0780e45eccf6384.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_demontables/01249_MAIDA_PIED_DEMONTABLE_RONDE_65_CM_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "dadd0a1a-4f95-50f0-a5a2-d288ab87f9d6",
+      "code": "M65D",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-692e1c7ef171fe2438eafdf2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_demontables/05322_MAIDA_PIED_DEMONTABLE_RONDE_65_CM_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "19465b7c-d0c4-5660-b017-17b09225b19d",
+      "code": "M75B",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a3f0a027f9dba10354542cce.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_demontables/05292_MAIDA_PIED_DEMONTABLE_RONDE_75_CM_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "43bbf40c-5a83-56a6-9737-e097be111f8a",
+      "code": "M75C",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fa392d2e07b95d5c4fe1f069.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Maida_rondes_a_pieds_demontables/05308_MAIDA_PIED_DEMONTABLE_RONDE_75_CM_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "bf4726b4-aa64-52af-9a49-b26e67b23840",
+      "code": "P",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5814597d29b4b5cc5452d649.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pelles/07753_PELLE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e3183558-3271-55bd-aa71-d9729301e064",
+      "code": "PAFC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-513e84ff019079b2a86019d0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs/01416_POT_A_FLEUR_CARRE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e8c4bf11-4d3c-54da-bc69-af6c9103e543",
+      "code": "PAFE",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d9e639586865417d3184501a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs_etages/08057_POT_A_FLEUR_ETAGER_1_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9bd91085-294b-5091-8eb2-c2636bea0496",
+      "code": "PAFE2/E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-bb7f102e7ed13c155bf738d7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs_etages/08064_POT_A_FLEUR_ETAGER_2_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "efc41a04-e337-582d-9e83-c3374611acc9",
+      "code": "PAFE3/E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5292c04722fd9c8e70e05bae.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs_etages/07494_POT_A_FLEUR_ETAGER_3_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2ac773bb-43db-5814-a446-32f47b3915f0",
+      "code": "PAFE4/E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-76a0a47b76e62608c379fc0b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs_etages/08071_POT_A_FLEUR_ETAGER_4_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cc0bb385-33b0-5fd9-843e-a988d9d859ce",
+      "code": "PAFE5/E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a25f4b56dcdb0f66440faedb.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs_etages/08088_POT_A_FLEUR_ETAGER_5_ETAGES.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9a582d7a-7026-59e4-b051-ec3b41921e46",
+      "code": "PAFR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fb91633fdd9fa17b210130c5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Pots_a_fleurs/01409_POT_A_FLEUR_ROND.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "87194851-3496-5ce5-93ea-804c09067175",
+      "code": "PALHD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86ef7bdd8243fd4890d3069d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Home_Design_salle_de_bain/06015_PANIER_A_LINGE_HOME.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "33235120-f58a-5d33-84b6-3d1b762a4cb8",
+      "code": "PBD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d003e91ab82c80643bfae41.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_decorees/06022_POUBELLE_BUREAU_RONDE_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "fdab201f-5b0b-56ca-9a7c-3cdda90e8fdc",
+      "code": "PC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-78b4636e79bb65086ceefa38.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Presse_citrons/01461_PRESSE_CITRON_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2f27169c-1b3d-50cf-b8de-f3da9e093349",
+      "code": "PCI",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-419bed1f8fe7f6f48da16f5f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Cintres_et_porte_cintres/07487_PORTE_CINTRE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "569f917d-1556-5bba-afeb-f0c2a4da3e31",
+      "code": "PCO GM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46639935f9a1fb3bfc9a0306.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangement_Ocean/06916_RANGEMENT_MULTI_FONCTION_OCEAN_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b7006387-d6a0-5275-ac35-e55b76ccefa4",
+      "code": "PCO PM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2a40bafd35c2f9653ae7a9e9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangement_Ocean/06923_RANGEMENT_MULTI_FONCTION_OCEAN_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "66cb3408-a3f6-51f7-99d6-b66616a77c8f",
+      "code": "PCT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-91ea2454f57fbb9e03f51aa2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Presse_citrons/08309_PRESSE_CITRON_TRANSPARANT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b86b00e4-3bad-53e9-bbdf-abb55a61a614",
+      "code": "PD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1a21f098fbf4d5eb4749d8ea.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Passoire_double/02017_PASSOIRE_DOUBLE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "568489db-6585-54a7-8a8d-eefd8b324b9e",
+      "code": "PDEC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5c210f6486a7a17324e68e72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_decorees/05339_POUBELLE_OVAL_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "60f66adc-e32e-501c-a263-d21270f5b594",
+      "code": "PDT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4446d1f0cd13227196e346c4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Diamant/06053_POUBELLE_DIAMANT_6L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b15c73ff-7a3c-593c-bd9c-b8077b5a439b",
+      "code": "PE",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-27945168c65f480cf8d44683.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Emeraude/07111_POUBELLE_EMRAUDE_40_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8af9a5df-15d1-5eb2-9020-cd7a36285a6d",
+      "code": "PFM3L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8136e38fe743fd4f81280d6c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/03_Avec_passoire/08187_Formule_Maxi_Ref03_3L_Passoire.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "37ad6f58-08cc-5d6c-9df2-59dd4dbdac39",
+      "code": "PFM5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-99d9db6d1a5dd23f8eabc80e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Formule/03_Avec_passoire/08194_Formule_Maxi_Ref04_5L_Passoire.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "e95263cb-f019-52e4-95e6-1be101753ac5",
+      "code": "PGT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e1d23957e77c1c06f58ce044.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Porte_gobelets_Titanic/06947_PORTE_GOBLE_TITANIC.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e82f55be-019f-5705-ac6c-574395e26cf0",
+      "code": "PMFFD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dda305921f2626956761d612.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Porte_manger_Fast_Food/06527_PORTE_MANGER_FAST_FOOD_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c560579d-a2bf-5792-9996-550ebf45aab5",
+      "code": "PMPD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b17ab6a5e1cb29cba25c55af.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Porte_manger_pique_nique/06534_PORTE_MANGER_PICNIQUE_RECT_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "71afa687-23e8-5d0f-a321-314386dde4af",
+      "code": "POS",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b452a6a4a469ea45a12970f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Porte_oeufs_Silver/07197_PORTE_OEUFS_SILVER.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "887a99a0-808f-56ec-9dd8-7d27ebf169a6",
+      "code": "PPV",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fe1bb9d51ec8d90baecaecee.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Paniers_pique_nique_Vanity/01713_PANIER_PICNIQUE_VANITY.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f95f805a-a8eb-57f6-904d-5319eea4447e",
+      "code": "PRGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1b245288d5b2817420129dc8.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Plateaux_Resto/06626_PLATEAUX_RESTO_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ff8dca8c-d66c-5ae2-b3f3-ee9b12284b2a",
+      "code": "PRPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ab6960ec980151b5da56c3ec.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Plateaux_Resto/06640_PLATEAUX_RESTO_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2867d064-a86a-5f7c-af35-ec8c66b8674d",
+      "code": "PS",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-25009b22941ff7070e85124c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Porte_stylos/06565_PORTE_STYLO.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9e839490-6254-5b79-8f95-f61c8d2a059d",
+      "code": "PST05L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cb02a8ad0293e1347304c0ff.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Smart/08286_POUBELLE_SMART_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d035d460-5f95-5697-a7be-8cf35a3c82cb",
+      "code": "PST12L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-76de7f04b705575af9d7da77.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Smart/08293_POUBELLE_SMART_12_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e2b52581-f157-5a5a-a261-3e3f2e6b6eda",
+      "code": "PST2.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1b62133594f9cb7565e785c9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Smart/08279_POUBELLE_SMART_2_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "26402a5e-df14-5d21-99ff-170cd29fbd8a",
+      "code": "PTR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-405c1f8208590a898ca2eca8.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [
+        {
+          "url": "/assets/basket.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "source_files": [
+        "Paniers_tresses/06084_PANIER_TRESSE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d017f355-cfd0-570b-998f-40eb7aba1726",
+      "code": "PTR05L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9f3b0e2951b15ce00c5956f9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Tresse/06107_POUBELLE_TRESSE_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "731e3f5a-66ba-5960-b586-38428f786a4e",
+      "code": "PTR12L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f9f5bdc03eaa3e8c88ffd242.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Tresse/06114_POUBELLE_TRESSE_12_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "19f7fb7f-004e-503f-a522-be2b05f180da",
+      "code": "PTR2.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-087a9bbda976c987a15c1a58.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Tresse/06091_POUBELLE_TRESSE_2_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "76913178-4d5b-5a76-8214-057f778d2062",
+      "code": "PTRS03",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-766a48cb953c65fd898866ef.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Poubelles_Tresse/06145_POUBELLE_TRESSE_S_3.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "52fc07b0-3935-5a2a-9eee-b42c63855799",
+      "code": "R12L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6bf638edca06c0c1bcd947da.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rondeaux/01485_RONDEAUX_12_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7b957fae-eda0-5348-9580-f694ec2a70e4",
+      "code": "R16L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eed82497c7511243a99ec2e0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rondeaux/01492_RONDEAUX_16_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ad03823a-eb61-554f-a727-d99c0d1b09aa",
+      "code": "R24L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d74a7e318a97ec5c233d243f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rondeaux/01515_RONDEAUX_24_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e763884b-6315-549b-b8e3-a819adcb4106",
+      "code": "R35L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-211d9316059ba6f50f3a9bee.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rondeaux/01508_RONDEAUX_35_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "299e122e-a0f4-5e21-ac1f-5b56eadd57f1",
+      "code": "RC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-19795fd711d3f8dd4b96e501.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Etagere_de_cuisine/06602_RANGEMENT_CUISINE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "cc933f86-c8b5-5398-8d49-89c8ace4b06e",
+      "code": "RCM5E",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-974da93ac97b2b12207b684b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Range_chaussures_Mistral/07685_RANGE_CHAUSSURE_MISTRAL_5_ETAGE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f40d2bc8-48b0-5c5d-9bd6-630313bdbc29",
+      "code": "RMFAI",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a49c37872e0eff54d8d4d67e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangement_Iris/06961_RANGEMENT_MULTI_FONCTION_IRIS_ASSIETTE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "89d2d881-6071-58d7-b3b5-8f4322bc67e5",
+      "code": "RMFDI",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5ab43cb0fd8b7928843d2b68.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangement_Iris/07074_RANGEMENT_MULTI_FONCTION_IRIS_DUO.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "12439cb7-35b4-5d65-989c-4f95b5a4c356",
+      "code": "RMFSI",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-918cbd9e90a9346fef99e40a.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangement_Iris/06954_RANGEMENT_MULTI_FONCTION_IRIS_SINGLE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0f50f658-21b4-56d8-84ef-ed18d0d4e139",
+      "code": "RRAGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0360ce41009485e94dda2f1e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangements_Amiral/07005_RANGEMENT_RECTANGLE_AMIRAL_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "31578bd1-4ce9-5311-8693-a5affb530f6d",
+      "code": "RRAPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-30d270c778fe0ce561402d81.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Rangements_Amiral/07012_RANGEMENT_RECTANGLE_AMIRAL_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8f7a020c-0968-571d-b2f9-a408d3043bbf",
+      "code": "S10L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d1142fbc3f4779eaaa31c5b0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Seaux/01560_SEAUX_10_L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_barcode_and_audited_model_reference_dimensions"
+      ]
+    },
+    {
+      "product_id": "feaa4b60-6d67-5e32-ba18-834efe038d7f",
+      "code": "S14L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cdfd5c62d8fe4b0cb3fd198d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Seaux/01584_SEAUX_14L_POIGNEE_METAL.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a1e6ce65-1b0f-59d9-b12f-174b8df017cf",
+      "code": "S14P",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f5f0e8122d6901665819111c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Seaux/01591_SEAUX_14L_POIGNEE_PLASTIQUE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "fee78725-1c09-5039-87ce-b1cdd118c07f",
+      "code": "SAA",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a0add2ea1b34d5b469091562.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Supports_a_assiettes/07029_SUPPORT_ASSIETTE_ASTER.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3531ef71-3fbe-513e-a060-c19a45781ffa",
+      "code": "SAG",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ad574fd3d7c6067e5cb00019.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Supports_a_assiettes/07043_SUPPORT_ASSIETTE_GHIZLAINE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b863d094-2b8c-59dd-ad44-9da64dcc222e",
+      "code": "SAR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e27280977acf554cbb7e4892.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Supports_a_assiettes/07326_SUPPORT_ASSIETTE_RAYHANE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e8ddcc5c-b21d-5e5f-b888-8c31d193a2cb",
+      "code": "SCFC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-83a50dc1f183bfe457387a49.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verseurs_et_services_Floria/07357_SERVICE_COCTAIL_FLORIA_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d32c3c18-f74a-5e02-be86-3d8be7f926ca",
+      "code": "SCFT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-047e05ea8dea5e337011ac9c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verseurs_et_services_Floria/06985_SERVICE_COCTAIL_FLORIA_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2a2a4c38-fed5-5565-ad44-445a73d46737",
+      "code": "SCOL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-a9e9557a9b3f217c6d9de1ed.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_classiques/01546_SALADIER_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "7097f841-cf34-5122-855e-47cb2ba6b354",
+      "code": "SF0.3L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2ce39a3f065935a276d6eeae.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_Fresh/00792_SALADIER_FRESH_0_3_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "1f6e9124-027b-5758-a61b-806e64bbf460",
+      "code": "SF0.75L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-49e3d79a5cda371651ee4b7c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_Fresh/03953_SALADIER_FRESH_0_75_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "681ccc12-3903-5689-9583-034bbda22b24",
+      "code": "SF1.4L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-de6252a52815395c95e37925.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_Fresh/06428_SALADIER_FRESH_1_4_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "22e4286f-d06d-5bd5-ae43-e8299a1d7052",
+      "code": "SF2.4L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fa0600ce11378d8f6c1aa94.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_Fresh/06800_SALADIER_FRESH_2_4_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "225a2e35-3cc1-53c9-b341-b65833cd9870",
+      "code": "SF4.5L",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-14d28ec81fc7735c06af29b6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_Fresh/05346_SALADIER_FRESH_4_5_L.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8295aef5-7881-53ed-ae97-6c646a9757cb",
+      "code": "SHOPS5",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2fbb9be4083a0a9e490a0a9d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tasses_Shop/08439_SHOP_SERIE_05.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "93be9ff0-547e-5b7c-8370-41a7e050707f",
+      "code": "SPC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f18b30475f127228c7fe5068.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Support_porte_cuisine/06596_SUPPORT_PORTE_CUISINE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "07543dd2-1866-5159-bacf-22c749706544",
+      "code": "SPMC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4ae6f1dbe40b7e7456c5c2f8.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_classiques/02345_SALADIER_PM_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8a7cca21-8bd9-5267-b108-f31e56e3a3ba",
+      "code": "SPMT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7df94404bdec7145635b44d5.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Saladiers_classiques/01553_SALADIER_PM_TRANSPARANT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c53cf766-b620-50bc-a101-b82fe884093e",
+      "code": "SRA",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cdfa0fc3ee24aabef159dc0b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Supports_de_robinet_Action/07234_SUPPORT_ROBINET_ACTION.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "a4e9d935-d305-5943-97ac-29d6fcdf263a",
+      "code": "TABED",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-522eb91fb0cdc2703ef3d698.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tabourets_enfant/05377_TABOURET_ENFANT_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9c217396-8d7d-51ae-9cf0-ae800e8ac846",
+      "code": "TABMMD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7e030f15f798bfab799159eb.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tabourets_enfant/05360_TABOURET_MM_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9af71694-dd90-5a6b-a742-f9440055c597",
+      "code": "TC05TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9484238de29b49f36799e0f7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04936_TOP_CHEF_5L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9b635bd6-59d3-52c7-8c9a-45b77a27484c",
+      "code": "TC07TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-203eec6f5bd9b1899811c52d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04929_TOP_CHEF_7L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "bd77de8b-4796-5b16-ba59-ee23188ba000",
+      "code": "TC1.85CL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b1a7f71c75ea2baaa94b6e1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/05049_TOP_CHEF_1_85L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "61b1b1e2-d8d2-5d12-801a-de2ede1fc5f4",
+      "code": "TC1.85TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-11f3a7a51bee44a39a141f85.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04943_TOP_CHEF_1_85L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "3440084f-70d6-57fa-8d07-6c641a365141",
+      "code": "TC10TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2a63f0b1a246ee10e7fc2c4.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04912_TOP_CHEF_10L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "850f454a-2ee9-5b61-aca8-196d0029e533",
+      "code": "TC16TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-73925c4041f242cc9780e79f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/00877_TOP_CHEF_16L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8cf2a3c9-8e1e-5179-831d-1fc51e5f1d1e",
+      "code": "TC21TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b0ec761b604c93e504f98d51.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04882_TOP_CHEF_21L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "c3949f7d-138a-59f0-ab6e-e2ec13d79d37",
+      "code": "TC32CL",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f09100f58aa68dded1e84ed0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/00853_TOP_CHEF_32L_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "67f1be75-316f-5b4a-93af-ac1c89770d48",
+      "code": "TC32TR",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f8750bc6c1f1f8d57462346c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Top Chef/04875_TOP_CHEF_32L_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "27c709bf-3122-5748-909b-a36d118d82d9",
+      "code": "TCB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-579a9c2d0d62467b8e85d6dd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_Chrea/01652_TABLE_CHREA_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "f83efe6d-8792-5131-b12b-e0c954eabdc6",
+      "code": "TCD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4d103bd721ee74d5bf066b32.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_Chrea/01669_TABLE_CHREA_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "1eb27f90-d773-5071-8480-b5ecb26bf0a2",
+      "code": "TOB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b6c68ab8448a0e793a1cdad0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_ovales/01676_TABLE_OVALE_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "9b034ab8-38ba-53fe-99e5-1ec9a94c678c",
+      "code": "TOC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-221d9496fe999bc4cfadc581.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_ovales/02369_TABLE_OVALE_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "35557489-aac6-5615-be3a-4238f785d5b0",
+      "code": "TOD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-924fe00def2e4c19dc87bea0.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_ovales/01683_TABLE_OVALE_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "5145d1f9-6022-5d23-8e92-bc096a349d83",
+      "code": "TPOB",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-57a18ffca9d7596072745b30.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_pliantes_Ostora/07128_TABLE_PLIANTE_OSTORA_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "53cbd8ee-25bc-5e29-b4db-0bffa6aa84a9",
+      "code": "TPOC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-31441c2ff715900e2adf1e2f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_pliantes_Ostora/07609_TABLE_PLIANTE_OSTORA_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "e3bc0649-b0b3-5dd3-8c2e-5e3f40da9d5e",
+      "code": "TREC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e06c8d11ee67077fdf162fdd.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_rectangulaires/01263_TABLE_RECTANGLE_BLANCHE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "d8c22840-78d4-55ad-9bda-3333e98f3aa1",
+      "code": "TRECD",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-bec5edd79856bb3fde91c594.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tables_rectangulaires/06480_TABLE_RECTANGLE_DECOREE.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "2a5638f6-e2de-52d4-9bcd-6648587f5383",
+      "code": "TT28",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-495dbcb1d17e39f2a2876ce9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tabourets_tresses/05452_TABOURET_TRESSE_HAUTEUR_28_CM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "172148cf-0e7c-5074-b8f7-4d2773fa724f",
+      "code": "TT50",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8639a47507a78c38c12a256.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tabourets_tresses/05469_TABOURET_TRESSE_HAUTER_50_CM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ad079303-910b-5bab-9ee2-31a135527be7",
+      "code": "TTH",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-930c560ce124f31a0f19c628.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Tabourets_tresses/06718_TABOURET_TRESSE_HAMMAM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "19ed10cc-7d5d-50b5-ad3e-410ae4ecb92d",
+      "code": "VC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc03ed146afbc7f89b896623.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verre_Crystal/06503_VERRE_CRYSTAL.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "143ce37a-8b2c-55ee-b542-f466669a47d6",
+      "code": "VCGM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5c2366c73077aa5da461dd98.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Vases_Corail/07241_VASE_CORAIL_MULTI_FONCTION_GM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "46bb42d3-d161-5294-823c-7a9cae7724e2",
+      "code": "VCMM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-24545e74d116eedaa99d5d85.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Vases_Corail/06558_VASE_CORAIL_MULTI_FONCTION_MM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "0fa98640-a6c1-5de4-8af3-abbce6c5c42d",
+      "code": "VCPM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-450096362c69da05bd25e2f7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Vases_Corail/07258_VASE_CORAIL_MULTI_FONCTION_PM.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "ecbbd882-a39a-53e8-9b6a-912184dcd162",
+      "code": "VE",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2e8367389832b4c299dc4989.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verres_enfant/05391_VERRES_ENFANTS.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "582f566a-bf19-5f82-885b-c4b276b97a29",
+      "code": "VECM",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4f024dc2d8ab7526318c6eee.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verres_enfant/08262_VERRES_ENFANTS_COUVERCLE_MICKEY.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b71bad16-9f56-5dd0-8d7e-1dea9b42c2f7",
+      "code": "VFC",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2bd8bc2f0bc16678ac09717d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verseurs_et_services_Floria/07630_VERSEUR_FLORIA_COULEUR.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "8fef6909-3294-55a9-8de7-e8507ee9e860",
+      "code": "VFT",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-bc006c56bffbb828259a5f74.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Verseurs_et_services_Floria/07623_VERSEUR_FLORIA_TRANSPARENT.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    },
+    {
+      "product_id": "b2706d29-c373-5add-af70-03d0429d1629",
+      "code": "VP",
+      "images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-577bfd15160e9a2d79c09902.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "legacy_images": [],
+      "source_files": [
+        "Visieres_de_protection/06763_VISIERE_DE_PROTECTION.png"
+      ],
+      "match_evidence": [
+        "unique_exact_name_and_barcode"
+      ]
+    }
+  ]
+}

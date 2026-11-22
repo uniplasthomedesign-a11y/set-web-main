@@ -1,0 +1,99 @@
+.admin-draft-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 18px 20px;
+  margin: 0 0 24px;
+  border: 1px solid #c8d8f3;
+  border-radius: 15px;
+  background: #f3f7ff;
+  color: #17376b;
+}
+.admin-draft-copy {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1;
+  min-width: 220px;
+}
+.admin-draft-copy > svg {
+  flex: none;
+  margin-top: 2px;
+}
+.admin-draft-copy strong {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.admin-draft-copy p {
+  font-size: 12px;
+  line-height: 1.65;
+  margin: 4px 0;
+  color: #496184;
+  max-width: 720px;
+}
+.admin-draft-copy small {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.admin-draft-panel > .btn {
+  flex: none;
+  min-height: 44px;
+  white-space: normal;
+}
+.admin-draft-error {
+  flex-basis: 100%;
+  margin: 0;
+  color: #a12f38;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.admin-draft-conflicts {
+  flex-basis: 100%;
+  display: grid;
+  gap: 12px;
+}
+.admin-draft-conflict {
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #ead2b2;
+  border-radius: 10px;
+}
+.admin-draft-conflict p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 6px 0 12px;
+}
+.admin-draft-conflict > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.admin-draft-conflict .btn {
+  font-size: 12px;
+  min-height: 38px;
+}
+.admin-online-operation {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #64748b;
+  margin: 8px 0 14px;
+}
+@media (max-width: 600px) {
+  .admin-draft-panel {
+    padding: 15px;
+    gap: 14px;
+  }
+  .admin-draft-panel > .btn {
+    width: 100%;
+  }
+  .admin-draft-copy {
+    min-width: 0;
+  }
+  .admin-draft-copy strong {
+    font-size: 14px;
+  }
+}

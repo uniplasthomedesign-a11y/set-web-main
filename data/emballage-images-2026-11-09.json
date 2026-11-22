@@ -1,0 +1,3136 @@
+{
+  "schema": 1,
+  "version": "emballage-lids-2026-11-09-v1",
+  "source_sha256": "19cd1a4b951e12f88d7fb3cace20e1da644f061202f427384db1147f34eded8e",
+  "coverage_sha256": "4f126947aaed24ff3c94105722dc5ff01d3e9a5312dfc91391b69664aa1c22ca",
+  "url_mapping": {
+    "/api/local/file?id=75b88100-74a8-45ef-8f67-73d9816e659c": "/assets/emballage-2026-11-09/owner-7a8d1c9c5cdf84233f7abf33ac65122c6d2b6455b66fc71885cd16fafee64776.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=75b88100-74a8-45ef-8f67-73d9816e659c": "/assets/emballage-2026-11-09/owner-7a8d1c9c5cdf84233f7abf33ac65122c6d2b6455b66fc71885cd16fafee64776.webp",
+    "/api/local/file?id=6b089016-40d4-4099-8f2b-677aacb4f7c2": "/assets/emballage-2026-11-09/owner-4cdc9755b8e30d1ec01c1e22bfdc7d9a59281e5780ae8c9132c31f450bb97344.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=6b089016-40d4-4099-8f2b-677aacb4f7c2": "/assets/emballage-2026-11-09/owner-4cdc9755b8e30d1ec01c1e22bfdc7d9a59281e5780ae8c9132c31f450bb97344.png",
+    "/api/local/file?id=1b5aa132-d2f7-405a-b117-3385ae9bbe29": "/assets/emballage-2026-11-09/owner-2e8f28a035137241efca09245236864b43592bc4524ef23c649b983bced0177d.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=1b5aa132-d2f7-405a-b117-3385ae9bbe29": "/assets/emballage-2026-11-09/owner-2e8f28a035137241efca09245236864b43592bc4524ef23c649b983bced0177d.webp",
+    "/api/local/file?id=4d121707-8afb-4767-9ea8-9000ad7ff3e4": "/assets/emballage-2026-11-09/owner-c3422e6fa2b61facbae3aadcfcc1e1a99a0299aa1d6b2daaf2c47474b0628071.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=4d121707-8afb-4767-9ea8-9000ad7ff3e4": "/assets/emballage-2026-11-09/owner-c3422e6fa2b61facbae3aadcfcc1e1a99a0299aa1d6b2daaf2c47474b0628071.png",
+    "/api/local/file?id=53a09772-077e-44aa-ac85-c81b9d8d9c42": "/assets/emballage-2026-11-09/owner-ec52473387a144b56a182acfbfe09c85b3b5f5851c1fa46b3f20cf505b907c43.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=53a09772-077e-44aa-ac85-c81b9d8d9c42": "/assets/emballage-2026-11-09/owner-ec52473387a144b56a182acfbfe09c85b3b5f5851c1fa46b3f20cf505b907c43.webp",
+    "/api/local/file?id=56d53a97-1133-4bf3-83b1-c80cc7a94b8d": "/assets/emballage-2026-11-09/owner-6fb13bb82aa70028084494136c8c9f39f3fcb3874bc878e10fdef382d1b2895b.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=56d53a97-1133-4bf3-83b1-c80cc7a94b8d": "/assets/emballage-2026-11-09/owner-6fb13bb82aa70028084494136c8c9f39f3fcb3874bc878e10fdef382d1b2895b.png",
+    "/api/local/file?id=d6fd1198-8013-4c41-b0c0-5a78c1ecdb18": "/assets/emballage-2026-11-09/owner-5fe0adc48b0cbdeb5284f01de7b0edd54a30d48ae9a7b0d52ddf322a355bc18c.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=d6fd1198-8013-4c41-b0c0-5a78c1ecdb18": "/assets/emballage-2026-11-09/owner-5fe0adc48b0cbdeb5284f01de7b0edd54a30d48ae9a7b0d52ddf322a355bc18c.webp",
+    "/api/local/file?id=698adaf1-8d9e-4e55-b7a3-127198023a9a": "/assets/emballage-2026-11-09/owner-fe4fb23bd43bdac738998ff91d5494121f9c4290006dbfe9ee21cc1c8bb70d3f.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=698adaf1-8d9e-4e55-b7a3-127198023a9a": "/assets/emballage-2026-11-09/owner-fe4fb23bd43bdac738998ff91d5494121f9c4290006dbfe9ee21cc1c8bb70d3f.png",
+    "/api/local/file?id=3bb35640-be9f-464f-b8ff-b807f64a962d": "/assets/emballage-2026-11-09/owner-8f9db8ad480840f6d9f59e9949c8024c5b7039f05f371c2436b6bc306f46d4aa.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=3bb35640-be9f-464f-b8ff-b807f64a962d": "/assets/emballage-2026-11-09/owner-8f9db8ad480840f6d9f59e9949c8024c5b7039f05f371c2436b6bc306f46d4aa.webp",
+    "/api/local/file?id=067218b0-4793-44b8-b4c0-1df8bf2b5b14": "/assets/emballage-2026-11-09/owner-8621f5fd20f25ae39aa39bba327c0e2de92fc5a2d504864fae7a519a73fffdfa.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=067218b0-4793-44b8-b4c0-1df8bf2b5b14": "/assets/emballage-2026-11-09/owner-8621f5fd20f25ae39aa39bba327c0e2de92fc5a2d504864fae7a519a73fffdfa.png",
+    "/api/local/file?id=133705c5-7342-444a-bb1f-ee046e1b7fbd": "/assets/emballage-2026-11-09/owner-f75f929d05609d46e984f39d4feaf841eaf5c8de55307e257aa2bc1cd81e4700.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=133705c5-7342-444a-bb1f-ee046e1b7fbd": "/assets/emballage-2026-11-09/owner-f75f929d05609d46e984f39d4feaf841eaf5c8de55307e257aa2bc1cd81e4700.webp",
+    "/api/local/file?id=7e001e85-6352-4b9e-b317-13a080742738": "/assets/emballage-2026-11-09/owner-0027ce4264a6b824c134aa378a826740c9c339d03f7380205a8a26d5694abd87.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=7e001e85-6352-4b9e-b317-13a080742738": "/assets/emballage-2026-11-09/owner-0027ce4264a6b824c134aa378a826740c9c339d03f7380205a8a26d5694abd87.png",
+    "/api/local/file?id=14c51b33-2aa0-4620-8111-50ff00ef451b": "/assets/emballage-2026-11-09/owner-4442128f7563697e4b004bef6601c8231e6473d7fe1f41a82c43bbc23d0a915a.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=14c51b33-2aa0-4620-8111-50ff00ef451b": "/assets/emballage-2026-11-09/owner-4442128f7563697e4b004bef6601c8231e6473d7fe1f41a82c43bbc23d0a915a.webp",
+    "/api/local/file?id=b1a801f6-91aa-4113-90d6-86dcb1382cbe": "/assets/emballage-2026-11-09/owner-96213d86ece296922f3b60bff4f9abce475022a0be03930ea8bef7cf9ac65cfe.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=b1a801f6-91aa-4113-90d6-86dcb1382cbe": "/assets/emballage-2026-11-09/owner-96213d86ece296922f3b60bff4f9abce475022a0be03930ea8bef7cf9ac65cfe.png",
+    "/api/local/file?id=8b50837c-80fa-4e0e-ba06-3c7bae412033": "/assets/emballage-2026-11-09/owner-1799d0c456732551cd337eef8b552020f46f9fe989fd0ff3713afdb22c5129fa.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=8b50837c-80fa-4e0e-ba06-3c7bae412033": "/assets/emballage-2026-11-09/owner-1799d0c456732551cd337eef8b552020f46f9fe989fd0ff3713afdb22c5129fa.webp",
+    "/api/local/file?id=0b977ecd-dc03-4ef4-bd5c-6ab24b778c4a": "/assets/emballage-2026-11-09/owner-ec91ac13033ce7bd14896d754e38c082dcab35238460b7d76a2817ffc53cf2d0.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=0b977ecd-dc03-4ef4-bd5c-6ab24b778c4a": "/assets/emballage-2026-11-09/owner-ec91ac13033ce7bd14896d754e38c082dcab35238460b7d76a2817ffc53cf2d0.png",
+    "/api/local/file?id=db07b5fc-6f0b-4345-ab6b-6058495c5084": "/assets/emballage-2026-11-09/owner-3f04b5939804c41332ffee82bf5dae992a20c77153aae5bd724152204890ff79.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=db07b5fc-6f0b-4345-ab6b-6058495c5084": "/assets/emballage-2026-11-09/owner-3f04b5939804c41332ffee82bf5dae992a20c77153aae5bd724152204890ff79.webp",
+    "/api/local/file?id=cd0544c5-25b6-4b4a-8f9b-a5ad1626ffcc": "/assets/emballage-2026-11-09/owner-6355070779c19eec00a158fba3d6083a6be7c30079d5f544cd2a55941453e35c.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=cd0544c5-25b6-4b4a-8f9b-a5ad1626ffcc": "/assets/emballage-2026-11-09/owner-6355070779c19eec00a158fba3d6083a6be7c30079d5f544cd2a55941453e35c.png",
+    "/api/local/file?id=ce4e630a-89e1-40ce-a3d6-84c935187832": "/assets/emballage-2026-11-09/owner-a06300b8f34c6e950f07b832439af819925a65f66040d999228c4e891350de44.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=ce4e630a-89e1-40ce-a3d6-84c935187832": "/assets/emballage-2026-11-09/owner-a06300b8f34c6e950f07b832439af819925a65f66040d999228c4e891350de44.webp",
+    "/api/local/file?id=61fba0b5-20f8-4a85-9adb-aba36ba8b2d8": "/assets/emballage-2026-11-09/owner-9cdce4a312cbe3a326310a461acbae549c48f57468a7e34ff826c9fb7c38868a.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=61fba0b5-20f8-4a85-9adb-aba36ba8b2d8": "/assets/emballage-2026-11-09/owner-9cdce4a312cbe3a326310a461acbae549c48f57468a7e34ff826c9fb7c38868a.png",
+    "/api/local/file?id=249f828f-2a24-4617-b4cc-737729f76675": "/assets/emballage-2026-11-09/owner-aaf9a6e082e0dfb424b2e7f456306212bb202762e9d5b02e392b3ec15cd83a19.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=249f828f-2a24-4617-b4cc-737729f76675": "/assets/emballage-2026-11-09/owner-aaf9a6e082e0dfb424b2e7f456306212bb202762e9d5b02e392b3ec15cd83a19.webp",
+    "/api/local/file?id=84dda1f3-9ffd-442c-8d0d-3becf5145c15": "/assets/emballage-2026-11-09/owner-b8327ce9fd9f0cde2c479f1fbb697f670d4c5772a464ed4988afbfde2a5f4463.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=84dda1f3-9ffd-442c-8d0d-3becf5145c15": "/assets/emballage-2026-11-09/owner-b8327ce9fd9f0cde2c479f1fbb697f670d4c5772a464ed4988afbfde2a5f4463.png",
+    "/api/local/file?id=8d098a38-dfc1-4ed7-be07-365c11adf796": "/assets/emballage-2026-11-09/owner-5ec2fd78b3ac8b8ad7bfe3e3e6f05fb6d24f0a6c689cfc1ddb2fc41120f161e5.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=8d098a38-dfc1-4ed7-be07-365c11adf796": "/assets/emballage-2026-11-09/owner-5ec2fd78b3ac8b8ad7bfe3e3e6f05fb6d24f0a6c689cfc1ddb2fc41120f161e5.webp",
+    "/api/local/file?id=990fc449-2a96-486d-a2fa-ab1343bd0d33": "/assets/emballage-2026-11-09/owner-f28e8dcc81809de85dc72ba361afc6148dade1e9d93e07a1498a6a562b78efbe.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=990fc449-2a96-486d-a2fa-ab1343bd0d33": "/assets/emballage-2026-11-09/owner-f28e8dcc81809de85dc72ba361afc6148dade1e9d93e07a1498a6a562b78efbe.png",
+    "/api/local/file?id=d5c1d342-f6fe-4c72-bf90-aaf3b01a2aa0": "/assets/emballage-2026-11-09/owner-f3703b09558080768b154635d52369352c960bb40b530e05f6a1c103b49e5d10.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=d5c1d342-f6fe-4c72-bf90-aaf3b01a2aa0": "/assets/emballage-2026-11-09/owner-f3703b09558080768b154635d52369352c960bb40b530e05f6a1c103b49e5d10.webp",
+    "/api/local/file?id=e528310b-5f1d-4f8d-a705-e5c334b3e157": "/assets/emballage-2026-11-09/owner-b728b78d7e6c2c58a553157f53f97e03a575c7bd2b2f457322dd1d5fcc9939cc.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=e528310b-5f1d-4f8d-a705-e5c334b3e157": "/assets/emballage-2026-11-09/owner-b728b78d7e6c2c58a553157f53f97e03a575c7bd2b2f457322dd1d5fcc9939cc.png",
+    "/api/local/file?id=fc037542-079a-49d2-921e-4a8110018ed6": "/assets/emballage-2026-11-09/owner-e10165deaf01d239751d42a216b844a3c8093115dfc489af176a8441c3e9aee4.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=fc037542-079a-49d2-921e-4a8110018ed6": "/assets/emballage-2026-11-09/owner-e10165deaf01d239751d42a216b844a3c8093115dfc489af176a8441c3e9aee4.webp",
+    "/api/local/file?id=0beab8ea-64c3-42b7-978f-322e3ee480a2": "/assets/emballage-2026-11-09/owner-4b372569926eddd3b292080e71f7ecfa2781cbde555fe5574e89d114a5a04e8a.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=0beab8ea-64c3-42b7-978f-322e3ee480a2": "/assets/emballage-2026-11-09/owner-4b372569926eddd3b292080e71f7ecfa2781cbde555fe5574e89d114a5a04e8a.png",
+    "/api/local/file?id=d0873429-6f0a-46f0-b812-5fadbb08668a": "/assets/emballage-2026-11-09/owner-fe7da470a9aa848e5ea5d310f51e957329ffd0c349d358a50d77e86f93599797.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=d0873429-6f0a-46f0-b812-5fadbb08668a": "/assets/emballage-2026-11-09/owner-fe7da470a9aa848e5ea5d310f51e957329ffd0c349d358a50d77e86f93599797.webp",
+    "/api/local/file?id=1d6beb84-c373-4629-9520-f7621b32d46f": "/assets/emballage-2026-11-09/owner-00479f4bfbe827293c879f08f894fdb9b6b18b0075236a5b8244d6f6f1192084.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=1d6beb84-c373-4629-9520-f7621b32d46f": "/assets/emballage-2026-11-09/owner-00479f4bfbe827293c879f08f894fdb9b6b18b0075236a5b8244d6f6f1192084.png",
+    "/api/local/file?id=24b3f117-81b4-4669-9d3d-3418c75556ee": "/assets/emballage-2026-11-09/owner-d32c1bcc316433233668b1c8d0b33b2fe4634b5572bd2a24e4d2eebbb060e90d.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=24b3f117-81b4-4669-9d3d-3418c75556ee": "/assets/emballage-2026-11-09/owner-d32c1bcc316433233668b1c8d0b33b2fe4634b5572bd2a24e4d2eebbb060e90d.webp",
+    "/api/local/file?id=82814115-aae0-4b19-9ca3-32ed01745b0b": "/assets/emballage-2026-11-09/owner-d49af3303d9ae026080681c22bf1888e575ad2f03814602f4cf642829e954b0f.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=82814115-aae0-4b19-9ca3-32ed01745b0b": "/assets/emballage-2026-11-09/owner-d49af3303d9ae026080681c22bf1888e575ad2f03814602f4cf642829e954b0f.png",
+    "/api/local/file?id=5b21938a-9290-4c8f-bc15-8cc8420413af": "/assets/emballage-2026-11-09/owner-41e935a2a69bcee2131ca13f15b3bf9362fbdc2866945bdd99e329e5e921ac81.webp",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=5b21938a-9290-4c8f-bc15-8cc8420413af": "/assets/emballage-2026-11-09/owner-41e935a2a69bcee2131ca13f15b3bf9362fbdc2866945bdd99e329e5e921ac81.webp",
+    "/api/local/file?id=1a45d80a-0543-4d53-aa77-52e320cf14fe": "/assets/emballage-2026-11-09/owner-0494ca75ea0f1a3c5166ec0cd4d154c20396aca7bb39456187359c65eed684a5.png",
+    "https://uniplast-home-design.netlify.app/api/local/file?id=1a45d80a-0543-4d53-aa77-52e320cf14fe": "/assets/emballage-2026-11-09/owner-0494ca75ea0f1a3c5166ec0cd4d154c20396aca7bb39456187359c65eed684a5.png",
+    "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp": "/assets/emballage-2026-11-09/auth-56f9227a4db70c55b138acaa-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp": "/assets/emballage-2026-11-09/auth-56f9227a4db70c55b138acaa-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp": "/assets/emballage-2026-11-09/auth-df67183266b3dfd2e2bb603d-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp": "/assets/emballage-2026-11-09/auth-df67183266b3dfd2e2bb603d-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp": "/assets/emballage-2026-11-09/auth-193f26c26a19af42e3dbf52a-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp": "/assets/emballage-2026-11-09/auth-193f26c26a19af42e3dbf52a-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp": "/assets/emballage-2026-11-09/auth-bdf894d204a1bc9cf4c41815-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp": "/assets/emballage-2026-11-09/auth-bdf894d204a1bc9cf4c41815-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp": "/assets/emballage-2026-11-09/auth-ec915ae15dfcf89d096cfe7e-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp": "/assets/emballage-2026-11-09/auth-ec915ae15dfcf89d096cfe7e-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp": "/assets/emballage-2026-11-09/auth-378ac4cd3c242ad34fec16ec-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp": "/assets/emballage-2026-11-09/auth-378ac4cd3c242ad34fec16ec-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp": "/assets/emballage-2026-11-09/auth-2b63bb9efff5931dbcbe0173-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp": "/assets/emballage-2026-11-09/auth-2b63bb9efff5931dbcbe0173-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp": "/assets/emballage-2026-11-09/auth-f8cd07941d85d23f00f8db8c-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp": "/assets/emballage-2026-11-09/auth-f8cd07941d85d23f00f8db8c-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp": "/assets/emballage-2026-11-09/auth-de2236b87aa02a0415ede2e5-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp": "/assets/emballage-2026-11-09/auth-de2236b87aa02a0415ede2e5-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp": "/assets/emballage-2026-11-09/auth-736ac5e16a2e4374a7637200-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp": "/assets/emballage-2026-11-09/auth-736ac5e16a2e4374a7637200-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp": "/assets/emballage-2026-11-09/auth-6b17af968f90c6e1c52bb216-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp": "/assets/emballage-2026-11-09/auth-6b17af968f90c6e1c52bb216-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp": "/assets/emballage-2026-11-09/auth-a9b3014d76f57d7535de11b9-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp": "/assets/emballage-2026-11-09/auth-a9b3014d76f57d7535de11b9-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp": "/assets/emballage-2026-11-09/auth-8584fe890dd18e8ac67cda67-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp": "/assets/emballage-2026-11-09/auth-8584fe890dd18e8ac67cda67-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp": "/assets/emballage-2026-11-09/auth-251589f6be91b187bc2f19b2-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp": "/assets/emballage-2026-11-09/auth-251589f6be91b187bc2f19b2-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp": "/assets/emballage-2026-11-09/auth-6cdd598b3badf362835b4291-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp": "/assets/emballage-2026-11-09/auth-6cdd598b3badf362835b4291-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp": "/assets/emballage-2026-11-09/auth-02087f60f576993593e714e2-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp": "/assets/emballage-2026-11-09/auth-02087f60f576993593e714e2-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp": "/assets/emballage-2026-11-09/auth-1723e49b95d55af8da61337c-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp": "/assets/emballage-2026-11-09/auth-1723e49b95d55af8da61337c-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp": "/assets/emballage-2026-11-09/auth-77b7eff36da82d4c3232cf10-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp": "/assets/emballage-2026-11-09/auth-77b7eff36da82d4c3232cf10-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp": "/assets/emballage-2026-11-09/auth-28757ec420ddf3308e053c13-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp": "/assets/emballage-2026-11-09/auth-28757ec420ddf3308e053c13-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp": "/assets/emballage-2026-11-09/auth-98462ff5dfedcc2a01bc5213-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp": "/assets/emballage-2026-11-09/auth-98462ff5dfedcc2a01bc5213-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp": "/assets/emballage-2026-11-09/auth-bdacd2aa358ee301a427c58d-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp": "/assets/emballage-2026-11-09/auth-bdacd2aa358ee301a427c58d-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp": "/assets/emballage-2026-11-09/auth-325200104efb9177c5877210-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp": "/assets/emballage-2026-11-09/auth-325200104efb9177c5877210-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp": "/assets/emballage-2026-11-09/auth-4fef2c1bec997e55bfd4ea7d-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp": "/assets/emballage-2026-11-09/auth-4fef2c1bec997e55bfd4ea7d-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp": "/assets/emballage-2026-11-09/auth-dc6e4600da93cafca8fb658d-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp": "/assets/emballage-2026-11-09/auth-dc6e4600da93cafca8fb658d-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp": "/assets/emballage-2026-11-09/auth-5c31b92a9d4eda7043300cab-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp": "/assets/emballage-2026-11-09/auth-5c31b92a9d4eda7043300cab-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp": "/assets/emballage-2026-11-09/auth-d1f46d1d2599f6bc7568ed81-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp": "/assets/emballage-2026-11-09/auth-d1f46d1d2599f6bc7568ed81-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp": "/assets/emballage-2026-11-09/auth-7a7255dc9b87f732298ad0af-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp": "/assets/emballage-2026-11-09/auth-7a7255dc9b87f732298ad0af-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp": "/assets/emballage-2026-11-09/auth-739b206ec66bbbbb8d0da600-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp": "/assets/emballage-2026-11-09/auth-739b206ec66bbbbb8d0da600-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp": "/assets/emballage-2026-11-09/auth-03f43d65a23468e0bf3a8051-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp": "/assets/emballage-2026-11-09/auth-03f43d65a23468e0bf3a8051-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp": "/assets/emballage-2026-11-09/auth-b215aeeadd0556d7e4ef275c-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp": "/assets/emballage-2026-11-09/auth-b215aeeadd0556d7e4ef275c-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp": "/assets/emballage-2026-11-09/auth-76563737b162b84529e5c8f4-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp": "/assets/emballage-2026-11-09/auth-76563737b162b84529e5c8f4-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp": "/assets/emballage-2026-11-09/auth-95c4388e6db7bec70d46ef38-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp": "/assets/emballage-2026-11-09/auth-95c4388e6db7bec70d46ef38-display-v1.webp",
+    "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp": "/assets/emballage-2026-11-09/auth-5756fad8b943b8bb41c1e1c4-display-v1.webp",
+    "https://uniplast-home-design.netlify.app/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp": "/assets/emballage-2026-11-09/auth-5756fad8b943b8bb41c1e1c4-display-v1.webp"
+  },
+  "rows": [
+    {
+      "code": "BECMA1250MLC",
+      "legacy_base_id": "3730454a-0bd3-52ae-bf4e-2cb658ea81f6",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becma1250mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA1250MLT",
+      "legacy_base_id": "3730454a-0bd3-52ae-bf4e-2cb658ea81f6",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-76563737b162b84529e5c8f4-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f2cee11c8d5ab3aae319842d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA2000MLC",
+      "legacy_base_id": "3c99f176-cf93-566c-92fb-02a2b4415dfa",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becma2000mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA2000MLT",
+      "legacy_base_id": "3c99f176-cf93-566c-92fb-02a2b4415dfa",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-8584fe890dd18e8ac67cda67-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-5b8401f94384a13079937d3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA460MLC",
+      "legacy_base_id": "29894761-c471-5eca-a391-a4621eb4d97b",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becma460mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA460MLT",
+      "legacy_base_id": "29894761-c471-5eca-a391-a4621eb4d97b",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-d1f46d1d2599f6bc7568ed81-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d5914351ae053dfc669aa0cf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA800MLC",
+      "legacy_base_id": "63dcbcd9-f1a3-5a21-ad29-fcc8f2a64df5",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becma800mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMA800MLT",
+      "legacy_base_id": "63dcbcd9-f1a3-5a21-ad29-fcc8f2a64df5",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-736ac5e16a2e4374a7637200-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-47b680801a33cef255701b15.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS1250MLC",
+      "legacy_base_id": "6af83046-8c70-56b8-b770-de06703819b7",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmas1250mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=5b21938a-9290-4c8f-bc15-8cc8420413af",
+          "original_url": "/api/local/file?id=1a45d80a-0543-4d53-aa77-52e320cf14fe",
+          "scale": 1.1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0494ca75ea0f1a3c5166ec0c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS1250MLT",
+      "legacy_base_id": "6af83046-8c70-56b8-b770-de06703819b7",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-41e935a2a69bcee2131ca13f15b3bf9362fbdc2866945bdd99e329e5e921ac81.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-0494ca75ea0f1a3c5166ec0cd4d154c20396aca7bb39456187359c65eed684a5.png",
+          "scale": 1.1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=5b21938a-9290-4c8f-bc15-8cc8420413af",
+          "original_url": "/api/local/file?id=1a45d80a-0543-4d53-aa77-52e320cf14fe",
+          "scale": 1.1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0494ca75ea0f1a3c5166ec0c.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS2000MLC",
+      "legacy_base_id": "eea35ebb-9070-5286-8dbf-f6b8f34dff1e",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmas2000mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=24b3f117-81b4-4669-9d3d-3418c75556ee",
+          "original_url": "/api/local/file?id=82814115-aae0-4b19-9ca3-32ed01745b0b",
+          "scale": 1.2,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d49af3303d9ae026080681c2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS2000MLT",
+      "legacy_base_id": "eea35ebb-9070-5286-8dbf-f6b8f34dff1e",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-d32c1bcc316433233668b1c8d0b33b2fe4634b5572bd2a24e4d2eebbb060e90d.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-d49af3303d9ae026080681c22bf1888e575ad2f03814602f4cf642829e954b0f.png",
+          "scale": 1.2,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=24b3f117-81b4-4669-9d3d-3418c75556ee",
+          "original_url": "/api/local/file?id=82814115-aae0-4b19-9ca3-32ed01745b0b",
+          "scale": 1.2,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-d49af3303d9ae026080681c2.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS460MLC",
+      "legacy_base_id": "370104c2-71ae-561e-92b0-b98cc0d47c0a",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmas460mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d0873429-6f0a-46f0-b812-5fadbb08668a",
+          "original_url": "/api/local/file?id=1d6beb84-c373-4629-9520-f7621b32d46f",
+          "scale": 0.93,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-00479f4bfbe827293c879f08.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS460MLT",
+      "legacy_base_id": "370104c2-71ae-561e-92b0-b98cc0d47c0a",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-fe7da470a9aa848e5ea5d310f51e957329ffd0c349d358a50d77e86f93599797.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-00479f4bfbe827293c879f08f894fdb9b6b18b0075236a5b8244d6f6f1192084.png",
+          "scale": 0.93,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d0873429-6f0a-46f0-b812-5fadbb08668a",
+          "original_url": "/api/local/file?id=1d6beb84-c373-4629-9520-f7621b32d46f",
+          "scale": 0.93,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-00479f4bfbe827293c879f08.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS800MLC",
+      "legacy_base_id": "5ee94cc7-84f2-5586-8083-a4f331315927",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmas800mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=fc037542-079a-49d2-921e-4a8110018ed6",
+          "original_url": "/api/local/file?id=0beab8ea-64c3-42b7-978f-322e3ee480a2",
+          "scale": 1.05,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4b372569926eddd3b292080e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMAS800MLT",
+      "legacy_base_id": "5ee94cc7-84f2-5586-8083-a4f331315927",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-e10165deaf01d239751d42a216b844a3c8093115dfc489af176a8441c3e9aee4.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-4b372569926eddd3b292080e71f7ecfa2781cbde555fe5574e89d114a5a04e8a.png",
+          "scale": 1.05,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=fc037542-079a-49d2-921e-4a8110018ed6",
+          "original_url": "/api/local/file?id=0beab8ea-64c3-42b7-978f-322e3ee480a2",
+          "scale": 1.05,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4b372569926eddd3b292080e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI1000MLC",
+      "legacy_base_id": "7e22124b-0989-5df6-a779-cd3a35982b89",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmi1000mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI1000MLT",
+      "legacy_base_id": "7e22124b-0989-5df6-a779-cd3a35982b89",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-56f9227a4db70c55b138acaa-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0ad445f17816e62145e1c940.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI300MLC",
+      "legacy_base_id": "4adc7338-ae6d-5b7f-8d7e-41b722df6f8d",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmi300mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI300MLT",
+      "legacy_base_id": "4adc7338-ae6d-5b7f-8d7e-41b722df6f8d",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-4fef2c1bec997e55bfd4ea7d-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c0bebb0a2d2bce26bbc42c26.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI450MLC",
+      "legacy_base_id": "50e570e5-4aa3-5fe9-bbfe-bdc2dc681182",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmi450mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI450MLT",
+      "legacy_base_id": "50e570e5-4aa3-5fe9-bbfe-bdc2dc681182",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-325200104efb9177c5877210-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ac73c3a9b2ac3e6aced7e462.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI650MLC",
+      "legacy_base_id": "e4aa2d8c-e824-5f85-beb8-f750246cb069",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmi650mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMI650MLT",
+      "legacy_base_id": "e4aa2d8c-e824-5f85-beb8-f750246cb069",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-28757ec420ddf3308e053c13-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-86116dbe996a4843d3ad2cf1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS1000MLC",
+      "legacy_base_id": "53f4c772-3cf6-5e4e-96fc-0bfc867d8f61",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmis1000mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d5c1d342-f6fe-4c72-bf90-aaf3b01a2aa0",
+          "original_url": "/api/local/file?id=e528310b-5f1d-4f8d-a705-e5c334b3e157",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b728b78d7e6c2c58a553157f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS1000MLT",
+      "legacy_base_id": "53f4c772-3cf6-5e4e-96fc-0bfc867d8f61",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-f3703b09558080768b154635d52369352c960bb40b530e05f6a1c103b49e5d10.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-b728b78d7e6c2c58a553157f53f97e03a575c7bd2b2f457322dd1d5fcc9939cc.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d5c1d342-f6fe-4c72-bf90-aaf3b01a2aa0",
+          "original_url": "/api/local/file?id=e528310b-5f1d-4f8d-a705-e5c334b3e157",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b728b78d7e6c2c58a553157f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS300MLC",
+      "legacy_base_id": "5701f955-7939-5fc0-b5b7-f57338b3cc15",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmis300mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=8d098a38-dfc1-4ed7-be07-365c11adf796",
+          "original_url": "/api/local/file?id=990fc449-2a96-486d-a2fa-ab1343bd0d33",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f28e8dcc81809de85dc72ba3.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS300MLT",
+      "legacy_base_id": "5701f955-7939-5fc0-b5b7-f57338b3cc15",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-5ec2fd78b3ac8b8ad7bfe3e3e6f05fb6d24f0a6c689cfc1ddb2fc41120f161e5.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-f28e8dcc81809de85dc72ba361afc6148dade1e9d93e07a1498a6a562b78efbe.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=8d098a38-dfc1-4ed7-be07-365c11adf796",
+          "original_url": "/api/local/file?id=990fc449-2a96-486d-a2fa-ab1343bd0d33",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-f28e8dcc81809de85dc72ba3.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS450MLC",
+      "legacy_base_id": "df20ba77-5269-5459-b0d2-ccc6cc894466",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmis450mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=249f828f-2a24-4617-b4cc-737729f76675",
+          "original_url": "/api/local/file?id=84dda1f3-9ffd-442c-8d0d-3becf5145c15",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b8327ce9fd9f0cde2c479f1f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS450MLT",
+      "legacy_base_id": "df20ba77-5269-5459-b0d2-ccc6cc894466",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-aaf9a6e082e0dfb424b2e7f456306212bb202762e9d5b02e392b3ec15cd83a19.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-b8327ce9fd9f0cde2c479f1fbb697f670d4c5772a464ed4988afbfde2a5f4463.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=249f828f-2a24-4617-b4cc-737729f76675",
+          "original_url": "/api/local/file?id=84dda1f3-9ffd-442c-8d0d-3becf5145c15",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-b8327ce9fd9f0cde2c479f1f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS650MLC",
+      "legacy_base_id": "4c99890b-1228-592d-8faa-88ea3660aa2e",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becmis650mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=ce4e630a-89e1-40ce-a3d6-84c935187832",
+          "original_url": "/api/local/file?id=61fba0b5-20f8-4a85-9adb-aba36ba8b2d8",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9cdce4a312cbe3a326310a46.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECMIS650MLT",
+      "legacy_base_id": "4c99890b-1228-592d-8faa-88ea3660aa2e",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-a06300b8f34c6e950f07b832439af819925a65f66040d999228c4e891350de44.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-9cdce4a312cbe3a326310a461acbae549c48f57468a7e34ff826c9fb7c38868a.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=ce4e630a-89e1-40ce-a3d6-84c935187832",
+          "original_url": "/api/local/file?id=61fba0b5-20f8-4a85-9adb-aba36ba8b2d8",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9cdce4a312cbe3a326310a46.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP1400MLC",
+      "legacy_base_id": "f473f5ad-7517-59ad-aff0-644b8600df9e",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becp1400mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP1400MLT",
+      "legacy_base_id": "f473f5ad-7517-59ad-aff0-644b8600df9e",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-193f26c26a19af42e3dbf52a-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-1df8a0db6b890afe9b3d50d6.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP2100MLC",
+      "legacy_base_id": "f44fae18-bde8-57cf-a5a2-adff578459ad",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becp2100mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP2100MLT",
+      "legacy_base_id": "f44fae18-bde8-57cf-a5a2-adff578459ad",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-03f43d65a23468e0bf3a8051-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-e8c27e6768a12b05274edce1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP3100MLC",
+      "legacy_base_id": "a42d23c1-3c92-5bc3-8d52-abaca86ef5de",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becp3100mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP3100MLT",
+      "legacy_base_id": "a42d23c1-3c92-5bc3-8d52-abaca86ef5de",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-2b63bb9efff5931dbcbe0173-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3a2fd077184e9e42b534d149.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP900MLC",
+      "legacy_base_id": "117f4969-22df-52f0-aa93-e554e22b9797",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becp900mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECP900MLT",
+      "legacy_base_id": "117f4969-22df-52f0-aa93-e554e22b9797",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-739b206ec66bbbbb8d0da600-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-dbe1add1a38e6ae86721af63.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS1400MLC",
+      "legacy_base_id": "fcf5f2fa-9d4c-5edf-b5f5-b5e7d32f63e4",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becps1400mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=db07b5fc-6f0b-4345-ab6b-6058495c5084",
+          "original_url": "/api/local/file?id=cd0544c5-25b6-4b4a-8f9b-a5ad1626ffcc",
+          "scale": 0.9,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6355070779c19eec00a158fb.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS1400MLT",
+      "legacy_base_id": "fcf5f2fa-9d4c-5edf-b5f5-b5e7d32f63e4",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-3f04b5939804c41332ffee82bf5dae992a20c77153aae5bd724152204890ff79.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-6355070779c19eec00a158fba3d6083a6be7c30079d5f544cd2a55941453e35c.png",
+          "scale": 0.9,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=db07b5fc-6f0b-4345-ab6b-6058495c5084",
+          "original_url": "/api/local/file?id=cd0544c5-25b6-4b4a-8f9b-a5ad1626ffcc",
+          "scale": 0.9,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6355070779c19eec00a158fb.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS2100MLC",
+      "legacy_base_id": "ab2a0695-1611-524a-9470-02b782afc88a",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becps2100mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=8b50837c-80fa-4e0e-ba06-3c7bae412033",
+          "original_url": "/api/local/file?id=0b977ecd-dc03-4ef4-bd5c-6ab24b778c4a",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ec91ac13033ce7bd14896d75.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS2100MLT",
+      "legacy_base_id": "ab2a0695-1611-524a-9470-02b782afc88a",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-1799d0c456732551cd337eef8b552020f46f9fe989fd0ff3713afdb22c5129fa.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-ec91ac13033ce7bd14896d754e38c082dcab35238460b7d76a2817ffc53cf2d0.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=8b50837c-80fa-4e0e-ba06-3c7bae412033",
+          "original_url": "/api/local/file?id=0b977ecd-dc03-4ef4-bd5c-6ab24b778c4a",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-ec91ac13033ce7bd14896d75.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS3100MLC",
+      "legacy_base_id": "c89e6bdf-8e90-5ca7-b31e-8f09561a2365",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becps3100mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=14c51b33-2aa0-4620-8111-50ff00ef451b",
+          "original_url": "/api/local/file?id=b1a801f6-91aa-4113-90d6-86dcb1382cbe",
+          "scale": 1.09,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-96213d86ece296922f3b60bf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS3100MLT",
+      "legacy_base_id": "c89e6bdf-8e90-5ca7-b31e-8f09561a2365",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-4442128f7563697e4b004bef6601c8231e6473d7fe1f41a82c43bbc23d0a915a.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-96213d86ece296922f3b60bff4f9abce475022a0be03930ea8bef7cf9ac65cfe.png",
+          "scale": 1.09,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=14c51b33-2aa0-4620-8111-50ff00ef451b",
+          "original_url": "/api/local/file?id=b1a801f6-91aa-4113-90d6-86dcb1382cbe",
+          "scale": 1.09,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-96213d86ece296922f3b60bf.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS900MLC",
+      "legacy_base_id": "1825205f-c3d9-5380-9c0d-e39fa373112a",
+      "lid_variant": "COULEUR",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/becps900mlc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=133705c5-7342-444a-bb1f-ee046e1b7fbd",
+          "original_url": "/api/local/file?id=7e001e85-6352-4b9e-b317-13a080742738",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0027ce4264a6b824c134aa37.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BECPS900MLT",
+      "legacy_base_id": "1825205f-c3d9-5380-9c0d-e39fa373112a",
+      "lid_variant": "TRANSPARENT",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-f75f929d05609d46e984f39d4feaf841eaf5c8de55307e257aa2bc1cd81e4700.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-0027ce4264a6b824c134aa378a826740c9c339d03f7380205a8a26d5694abd87.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=133705c5-7342-444a-bb1f-ee046e1b7fbd",
+          "original_url": "/api/local/file?id=7e001e85-6352-4b9e-b317-13a080742738",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-0027ce4264a6b824c134aa37.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "TRANSPARENT"
+    },
+    {
+      "code": "BERMA1000MLC",
+      "legacy_base_id": "3e4a1d00-1cfe-5fe3-bc4b-35ad35ce84b9",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-b215aeeadd0556d7e4ef275c-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMA1000MLT",
+      "legacy_base_id": "3e4a1d00-1cfe-5fe3-bc4b-35ad35ce84b9",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/berma1000mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-eeebe0049c6ff50733ce6137.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMA400MLC",
+      "legacy_base_id": "2bc62ff8-cce3-59a1-b403-efea6153eea2",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-5756fad8b943b8bb41c1e1c4-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMA400MLTC",
+      "legacy_base_id": "2bc62ff8-cce3-59a1-b403-efea6153eea2",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/berma400mltc-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fcb296673d8cdb3208bdfb84.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMA650MLC",
+      "legacy_base_id": "aeffe2c4-e385-573a-b957-d20acc4bdd3d",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-378ac4cd3c242ad34fec16ec-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMA650MLT",
+      "legacy_base_id": "aeffe2c4-e385-573a-b957-d20acc4bdd3d",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/berma650mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-383ec22cd4cdf43669418d12.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS1000MLC",
+      "legacy_base_id": "51c0fc65-0b92-51ac-8a02-d955cfb53e61",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-8f9db8ad480840f6d9f59e9949c8024c5b7039f05f371c2436b6bc306f46d4aa.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-8621f5fd20f25ae39aa39bba327c0e2de92fc5a2d504864fae7a519a73fffdfa.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=3bb35640-be9f-464f-b8ff-b807f64a962d",
+          "original_url": "/api/local/file?id=067218b0-4793-44b8-b4c0-1df8bf2b5b14",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8621f5fd20f25ae39aa39bba.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS1000MLT",
+      "legacy_base_id": "51c0fc65-0b92-51ac-8a02-d955cfb53e61",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermas1000mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=3bb35640-be9f-464f-b8ff-b807f64a962d",
+          "original_url": "/api/local/file?id=067218b0-4793-44b8-b4c0-1df8bf2b5b14",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-8621f5fd20f25ae39aa39bba.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS650MLC",
+      "legacy_base_id": "cf5c56b9-39ad-54da-bd23-0a748519cac6",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-5fe0adc48b0cbdeb5284f01de7b0edd54a30d48ae9a7b0d52ddf322a355bc18c.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-fe4fb23bd43bdac738998ff91d5494121f9c4290006dbfe9ee21cc1c8bb70d3f.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d6fd1198-8013-4c41-b0c0-5a78c1ecdb18",
+          "original_url": "/api/local/file?id=698adaf1-8d9e-4e55-b7a3-127198023a9a",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fe4fb23bd43bdac738998ff9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS650MLT",
+      "legacy_base_id": "cf5c56b9-39ad-54da-bd23-0a748519cac6",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermas650mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=d6fd1198-8013-4c41-b0c0-5a78c1ecdb18",
+          "original_url": "/api/local/file?id=698adaf1-8d9e-4e55-b7a3-127198023a9a",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fe4fb23bd43bdac738998ff9.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS400MLC",
+      "legacy_base_id": "67c312ea-1700-57d5-a039-bacf2e6125fc",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-df67183266b3dfd2e2bb603d-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-ec915ae15dfcf89d096cfe7e-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMAS400MLT",
+      "legacy_base_id": "67c312ea-1700-57d5-a039-bacf2e6125fc",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermas400mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-16c562d72854ac67add6a809.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3583a0e160939f5b6239efab.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI300MLC",
+      "legacy_base_id": "cb79a138-bb24-526b-84a9-15b4057c45c5",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-de2236b87aa02a0415ede2e5-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI300MLT",
+      "legacy_base_id": "cb79a138-bb24-526b-84a9-15b4057c45c5",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermi300mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-46a2b06bb0ee7cb0a4cb2e23.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI480MLC",
+      "legacy_base_id": "ae4d5de9-a3c1-5079-aa3d-dbac5a259219",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-02087f60f576993593e714e2-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI480MLT",
+      "legacy_base_id": "ae4d5de9-a3c1-5079-aa3d-dbac5a259219",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermi480mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fef7e9487ac42c9f3df28e7.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI730MLT",
+      "legacy_base_id": "ef3c83aa-9e5b-5eef-988a-1fa410aa1753",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermi730mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMI730MLC",
+      "legacy_base_id": "ef3c83aa-9e5b-5eef-988a-1fa410aa1753",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-dc6e4600da93cafca8fb658d-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3ca8f5452c7807be84c5c0d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS730MLC",
+      "legacy_base_id": "5d10cb37-7c64-5dca-bfbc-56fd68f2bfc2",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-ec52473387a144b56a182acfbfe09c85b3b5f5851c1fa46b3f20cf505b907c43.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-6fb13bb82aa70028084494136c8c9f39f3fcb3874bc878e10fdef382d1b2895b.png",
+          "scale": 1.12,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=53a09772-077e-44aa-ac85-c81b9d8d9c42",
+          "original_url": "/api/local/file?id=56d53a97-1133-4bf3-83b1-c80cc7a94b8d",
+          "scale": 1.12,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fb13bb82aa7002808449413.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS730MLT",
+      "legacy_base_id": "5d10cb37-7c64-5dca-bfbc-56fd68f2bfc2",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermis730mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=53a09772-077e-44aa-ac85-c81b9d8d9c42",
+          "original_url": "/api/local/file?id=56d53a97-1133-4bf3-83b1-c80cc7a94b8d",
+          "scale": 1.12,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6fb13bb82aa7002808449413.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS300MLC",
+      "legacy_base_id": "646344fb-bb26-51e7-8057-a07c28031cef",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-f8cd07941d85d23f00f8db8c-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-a9b3014d76f57d7535de11b9-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS300MLT",
+      "legacy_base_id": "646344fb-bb26-51e7-8057-a07c28031cef",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermis300mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-3fd2a83f7af5ea0923d46c3e.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-578c4bc9e0bb2de5004a4fa1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS480MLC",
+      "legacy_base_id": "a8e5e805-bc09-55af-9690-293845c25a50",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-1723e49b95d55af8da61337c-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-95c4388e6db7bec70d46ef38-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERMIS480MLT",
+      "legacy_base_id": "a8e5e805-bc09-55af-9690-293845c25a50",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bermis480mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-761a1c5dd02f803007945448.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-fc1516d94ec13abae3261efa.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER300MLC",
+      "legacy_base_id": "f5e1b238-6337-50fb-9f59-16609022a13d",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-bdacd2aa358ee301a427c58d-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER300MLT",
+      "legacy_base_id": "f5e1b238-6337-50fb-9f59-16609022a13d",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/ber300mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-9fdc5818ff15aa06081a866b.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER400ML",
+      "legacy_base_id": "b2e4eb38-d167-5db4-b75e-be5dfd6ff8e3",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-251589f6be91b187bc2f19b2-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER400MLT",
+      "legacy_base_id": "b2e4eb38-d167-5db4-b75e-be5dfd6ff8e3",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/ber400mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6b5c2513b18bbe8d9e281743.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER500MLC",
+      "legacy_base_id": "861ffa73-1320-58f4-8e83-9ace90ca1246",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-2e8f28a035137241efca09245236864b43592bc4524ef23c649b983bced0177d.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-c3422e6fa2b61facbae3aadcfcc1e1a99a0299aa1d6b2daaf2c47474b0628071.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=1b5aa132-d2f7-405a-b117-3385ae9bbe29",
+          "original_url": "/api/local/file?id=4d121707-8afb-4767-9ea8-9000ad7ff3e4",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3422e6fa2b61facbae3aadc.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER500MLT",
+      "legacy_base_id": "861ffa73-1320-58f4-8e83-9ace90ca1246",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/ber500mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=1b5aa132-d2f7-405a-b117-3385ae9bbe29",
+          "original_url": "/api/local/file?id=4d121707-8afb-4767-9ea8-9000ad7ff3e4",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-c3422e6fa2b61facbae3aadc.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER750MLC",
+      "legacy_base_id": "6ac35b1d-b1ec-53f1-becf-3527fc0182b0",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/owner-7a8d1c9c5cdf84233f7abf33ac65122c6d2b6455b66fc71885cd16fafee64776.webp",
+          "original_url": "/assets/emballage-2026-11-09/owner-4cdc9755b8e30d1ec01c1e22bfdc7d9a59281e5780ae8c9132c31f450bb97344.png",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=75b88100-74a8-45ef-8f67-73d9816e659c",
+          "original_url": "/api/local/file?id=6b089016-40d4-4099-8f2b-677aacb4f7c2",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4cdc9755b8e30d1ec01c1e22.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BER750MLT",
+      "legacy_base_id": "6ac35b1d-b1ec-53f1-becf-3527fc0182b0",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/ber750mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/api/local/file?id=75b88100-74a8-45ef-8f67-73d9816e659c",
+          "original_url": "/api/local/file?id=6b089016-40d4-4099-8f2b-677aacb4f7c2",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-4cdc9755b8e30d1ec01c1e22.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS750MLC",
+      "legacy_base_id": "39cb695a-5942-511d-a48b-e3cd8f458f79",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-5c31b92a9d4eda7043300cab-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS750MLT",
+      "legacy_base_id": "39cb695a-5942-511d-a48b-e3cd8f458f79",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bers750mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-cd6d5418a8a223810ab7783d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS300MLC",
+      "legacy_base_id": "2dbcbca3-71c4-5fc0-9101-82f2cf7c47d6",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-6b17af968f90c6e1c52bb216-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-bdf894d204a1bc9cf4c41815-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS300MLT",
+      "legacy_base_id": "2dbcbca3-71c4-5fc0-9101-82f2cf7c47d6",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bers300mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-533b1affc6902e8060f31f72.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-2d71dd19f1eda9a2e537f20f.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS400MLC",
+      "legacy_base_id": "c26a46d5-65a4-5fdb-9bd3-0b1702c34eff",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-6cdd598b3badf362835b4291-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-7a7255dc9b87f732298ad0af-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS400MLT",
+      "legacy_base_id": "c26a46d5-65a4-5fdb-9bd3-0b1702c34eff",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bers400mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-6c835b174486c1b2dbccc390.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-db25c944c9596f2bd89d9f11.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS500MLC",
+      "legacy_base_id": "ecfa1715-2173-55a2-aa65-c15f3d87ac20",
+      "lid_variant": "COULEUR",
+      "kind": "authentic",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/auth-98462ff5dfedcc2a01bc5213-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp"
+        },
+        {
+          "url": "/assets/emballage-2026-11-09/auth-77b7eff36da82d4c3232cf10-display-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0,
+          "original_url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp"
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    },
+    {
+      "code": "BERS500MLT",
+      "legacy_base_id": "ecfa1715-2173-55a2-aa65-c15f3d87ac20",
+      "lid_variant": "TRANSPARENT",
+      "kind": "illustrative",
+      "images": [
+        {
+          "url": "/assets/emballage-2026-11-09/bers500mlt-illustration-v1.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "approved_base_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_source_images": [
+        {
+          "url": "/assets/products/photos-2026-11-08/p-90aae199b19ea81be11cc63d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "url": "/assets/products/photos-2026-11-08/p-7d21b7d4dbedca12200b0c1d.webp",
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "real_lid_variant": "COULEUR"
+    }
+  ]
+}
