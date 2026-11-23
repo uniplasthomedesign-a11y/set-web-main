@@ -4313,7 +4313,7 @@ footer {
     overscroll-behavior: contain;
     border: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 20%, transparent);
     border-radius: 22px;
-    background: linear-gradient(155deg, var(--seasonal-nav-background, #fff) 0%, color-mix(in srgb, var(--seasonal-button, var(--blue)) 8%, #fff) 100%);
+    background: linear-gradient(155deg, var(--seasonal-nav-background, #fff) 0%, color-mix(in srgb, var(--seasonal-button, var(--blue)) 4%, #fff) 100%);
     box-shadow: 0 26px 70px rgba(5, 18, 42, 0.28);
     visibility: hidden;
     opacity: 0;
@@ -4353,7 +4353,7 @@ footer {
     overflow: hidden;
     padding: 22px 18px 18px;
     border-radius: 22px 22px 0 0;
-    background: linear-gradient(135deg, var(--seasonal-button, var(--blue)), var(--navy));
+    background: linear-gradient(135deg, color-mix(in srgb, var(--seasonal-button, var(--blue)) 88%, #fff), color-mix(in srgb, var(--navy) 86%, #fff));
     color: #fff;
   }
   .mobile-nav-hero::after {
@@ -4370,7 +4370,7 @@ footer {
   .mobile-nav-hero > span {
     display: block;
     margin-bottom: 5px;
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 9px;
     font-weight: 800;
     letter-spacing: 0.2em;
@@ -4389,7 +4389,7 @@ footer {
     z-index: 1;
     display: block;
     margin-top: 4px;
-    color: rgba(255, 255, 255, 0.78);
+    color: rgba(255, 255, 255, 0.94);
     font-size: 11px;
     font-weight: 500;
     line-height: 1.45;
@@ -4512,7 +4512,7 @@ footer {
     margin-top: auto;
     padding: 14px 16px;
     border-top: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 12%, transparent);
-    background: color-mix(in srgb, var(--seasonal-button, var(--blue)) 7%, transparent);
+    background: color-mix(in srgb, var(--seasonal-button, var(--blue)) 5%, transparent);
   }
   .mobile-nav-foot a {
     display: inline-flex;
