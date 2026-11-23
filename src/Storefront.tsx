@@ -27,6 +27,7 @@ import {
   ShoppingBag,
   SlidersHorizontal,
   Star,
+  Tag,
   UserRound,
   X,
 } from "lucide-react";
@@ -129,6 +130,7 @@ export function Header({
   }, [menu, families]);
   useEffect(() => {
     if (!menu) return;
+    document.body.classList.add("mobile-nav-open");
     const onOutside = (event: PointerEvent) => {
       const target = event.target;
       if (!(target instanceof Node)) return;
@@ -138,7 +140,10 @@ export function Header({
       setFamilies(false);
     };
     document.addEventListener("pointerdown", onOutside);
-    return () => document.removeEventListener("pointerdown", onOutside);
+    return () => {
+      document.removeEventListener("pointerdown", onOutside);
+      document.body.classList.remove("mobile-nav-open");
+    };
   }, [menu]);
   const brandClick = () => {
     const now = Date.now();
@@ -305,6 +310,17 @@ export function Header({
             {favoriteCount > 0 && <b aria-hidden="true">{favoriteCount}</b>}
           </button>
         </div>
+        {menu && (
+          <button
+            type="button"
+            className="mobile-nav-scrim"
+            aria-label="Fermer le menu"
+            onClick={() => {
+              closeMenus();
+              menuToggle.current?.focus();
+            }}
+          />
+        )}
         <div
           id="primary-navigation"
           role="navigation"
@@ -391,11 +407,27 @@ export function Header({
               Mes commandes <Package size={16} />
             </a>
             <div className="mobile-nav-list">
+              <div className="mobile-nav-hero">
+                <span>Navigation</span>
+                <strong>UNIPLAST</strong>
+                <small>{catalog.settings.topbar_tagline ?? DEFAULT_TAGLINE}</small>
+                <button
+                  type="button"
+                  className="mobile-nav-hero-close"
+                  aria-label="Fermer le menu"
+                  onClick={() => {
+                    closeMenus();
+                    menuToggle.current?.focus();
+                  }}
+                >
+                  <X size={18} aria-hidden="true" />
+                </button>
+              </div>
               <a href="#/">
-                <House size={14} aria-hidden="true" /> Accueil
+                <House size={16} aria-hidden="true" /> Accueil
               </a>
               <a href="#/catalogue">
-                <Grid2X2 size={14} aria-hidden="true" /> Tous les produits
+                <Grid2X2 size={16} aria-hidden="true" /> Tous les produits
               </a>
               <div className="mobile-family-wrap">
                 <button
@@ -405,8 +437,8 @@ export function Header({
                   aria-controls="mobile-family-list"
                   onClick={() => setFamilies(!families)}
                 >
-                  <Layers size={14} aria-hidden="true" /> Familles{" "}
-                  <ChevronDown size={13} aria-hidden="true" />
+                  <Layers size={16} aria-hidden="true" /> Familles{" "}
+                  <ChevronDown size={14} aria-hidden="true" />
                 </button>
                 {families && (
                   <div className="mobile-family-list" id="mobile-family-list">
@@ -421,12 +453,13 @@ export function Header({
                           {f.name}
                         </button>
                       ))}
-                    <a href="#/collections">Voir toutes les familles →</a>
+                    <a href="#/collections">Toutes les familles →</a>
                   </div>
                 )}
               </div>
               <a href="#/catalogue?filtre=promotions">
-                Promotions <span className="tiny-dot" />
+                <Tag size={16} aria-hidden="true" /> Promotions
+                <span className="tiny-dot" />
               </a>
               <button
                 type="button"
@@ -435,10 +468,12 @@ export function Header({
                   window.dispatchEvent(new Event("uniplast:open-favorites"));
                 }}
               >
-                <Star size={17} aria-hidden="true" /> Mes favoris
+                <Star size={16} aria-hidden="true" /> Mes favoris
                 {favoriteCount > 0 && <b>{favoriteCount}</b>}
               </button>
-              <a href="#/a-propos">Qui sommes-nous ?</a>
+              <a href="#/a-propos">
+                <Factory size={16} aria-hidden="true" /> Qui sommes-nous ?
+              </a>
               <button
                 type="button"
                 onClick={() => {
@@ -447,21 +482,22 @@ export function Header({
                   setContactOpen(true);
                 }}
               >
-                <Phone size={17} aria-hidden="true" /> Contact
+                <Phone size={16} aria-hidden="true" /> Contact
               </button>
               <a href="#/catalogue-pdf">
-                <ArrowUpRight size={17} aria-hidden="true" /> PDF des produits
+                <ArrowUpRight size={16} aria-hidden="true" /> PDF des produits
               </a>
-              <button
-                type="button"
-                className="mobile-nav-close"
-                onClick={() => {
-                  closeMenus();
-                  menuToggle.current?.focus();
-                }}
-              >
-                <X size={17} aria-hidden="true" /> Fermer
-              </button>
+              <div className="mobile-nav-foot">
+                {catalog.settings.phone ? (
+                  <a href={"tel:" + catalog.settings.phone}>
+                    <Phone size={14} aria-hidden="true" />
+                    {catalog.settings.phone}
+                  </a>
+                ) : (
+                  <span>UNIPLAST SARL</span>
+                )}
+                <span>Sidi Chami · Oran</span>
+              </div>
             </div>
           </div>
         </div>

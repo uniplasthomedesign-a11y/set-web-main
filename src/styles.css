@@ -4208,6 +4208,9 @@ footer {
   body {
     font-size: 13px;
   }
+  body.mobile-nav-open {
+    overflow: hidden;
+  }
   .container {
     width: calc(100% - 32px);
   }
@@ -4240,10 +4243,20 @@ footer {
   }
   .mobile-menu {
     display: inline-flex;
-    border: 0;
-    width: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
     margin-right: 5px;
+    border: 1px solid color-mix(in srgb, var(--blue) 22%, transparent);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.92);
     color: var(--blue);
+    box-shadow: 0 8px 18px rgba(15, 38, 79, 0.1);
+  }
+  .mobile-menu svg {
+    width: 18px;
+    height: 18px;
   }
   .cart-button {
     margin-right: 5px;
@@ -4275,52 +4288,126 @@ footer {
     height: 29px;
     width: 31px;
   }
+  .mobile-nav-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 39;
+    border: 0;
+    background: linear-gradient(120deg, rgba(7, 19, 41, 0.58), rgba(9, 30, 66, 0.32));
+    backdrop-filter: blur(3px);
+    animation: mobile-scrim-in 0.18s ease both;
+  }
+  @keyframes mobile-scrim-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
   .navigation {
     display: block;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: calc(100% + 8px);
+    left: 8px;
     z-index: 40;
-    width: 4.5cm;
-    min-height: 13cm;
-    max-height: 17cm;
+    width: min(calc(100vw - 24px), 340px);
+    max-height: calc(100vh - 116px);
     overflow-y: auto;
     overscroll-behavior: contain;
-    border: 1px solid var(--seasonal-art-ink, var(--blue));
-    border-left: 0;
-    border-top: 3px solid var(--seasonal-button, var(--blue));
-    border-radius: 0;
-    background: var(--seasonal-nav-background, #fff);
-    box-shadow: none;
+    border: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 20%, transparent);
+    border-radius: 22px;
+    background: linear-gradient(155deg, var(--seasonal-nav-background, #fff) 0%, color-mix(in srgb, var(--seasonal-button, var(--blue)) 8%, #fff) 100%);
+    box-shadow: 0 26px 70px rgba(5, 18, 42, 0.28);
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.16s ease, visibility 0.16s;
+    transform: translateY(-12px) scale(0.98);
+    transform-origin: top left;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
   }
   .navigation.mobile-open {
     visibility: visible;
     opacity: 1;
+    transform: none;
   }
   .navigation .seasonal-nav-banner {
     display: none;
   }
   .navigation.mobile-open .nav-inner {
     display: block;
-    padding: 3px;
+    padding: 0;
   }
   .navigation.mobile-open .nav-inner > :not(.mobile-nav-list) {
     display: none;
   }
   .navigation::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
   }
   .navigation::-webkit-scrollbar-thumb {
-    border-radius: 4px;
+    border-radius: 999px;
     background: var(--seasonal-button, var(--blue));
   }
   .mobile-nav-list {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .mobile-nav-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 22px 18px 18px;
+    border-radius: 22px 22px 0 0;
+    background: linear-gradient(135deg, var(--seasonal-button, var(--blue)), var(--navy));
+    color: #fff;
+  }
+  .mobile-nav-hero::after {
+    content: "";
+    position: absolute;
+    right: -58px;
+    bottom: -96px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: var(--yellow);
+    opacity: 0.18;
+  }
+  .mobile-nav-hero > span {
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .mobile-nav-hero strong {
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.045em;
+  }
+  .mobile-nav-hero small {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .mobile-nav-hero-close {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
   }
   .mobile-nav-list > a,
   .mobile-nav-list > button,
@@ -4329,53 +4416,69 @@ footer {
   .mobile-family-list a {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 11px;
     width: 100%;
-    min-height: 44px;
-    padding: 10px 8px;
+    min-height: 46px;
+    padding: 11px 16px;
     border: 0;
-    border-bottom: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 18%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 12%, transparent);
     background: transparent;
-    color: var(--seasonal-nav-ink, inherit);
+    color: var(--seasonal-nav-ink, var(--ink));
     font-size: 13px;
     font-weight: 700;
     line-height: 1.25;
     text-align: left;
+    transition: background 0.16s ease, padding-left 0.16s ease;
   }
-  .mobile-nav-list > :last-child {
-    border-bottom: 0;
+  .mobile-nav-list > a:active,
+  .mobile-nav-list > button:not(:disabled):active,
+  .mobile-family-toggle:active {
+    padding-left: 20px;
   }
   .mobile-nav-list > a:hover,
   .mobile-nav-list > button:not(:disabled):hover,
   .mobile-family-toggle:hover,
   .mobile-family-list button:hover,
   .mobile-family-list a:hover {
-    background: color-mix(in srgb, var(--seasonal-button, var(--blue)) 22%, transparent);
+    background: color-mix(in srgb, var(--seasonal-button, var(--blue)) 14%, transparent);
   }
-  .mobile-nav-list svg,
-  .mobile-family-toggle svg {
+  .mobile-nav-list > a > svg,
+  .mobile-nav-list > button > svg,
+  .mobile-family-toggle > svg:first-child,
+  .mobile-nav-foot a svg {
     width: 16px;
     height: 16px;
     flex: 0 0 16px;
+    color: var(--seasonal-button, var(--blue));
   }
   .mobile-family-wrap {
     width: 100%;
   }
-  .mobile-family-toggle.is-open svg:last-child {
+  .mobile-family-toggle > svg:last-child {
+    margin-left: auto;
+    transition: transform 0.18s ease;
+  }
+  .mobile-family-toggle.is-open > svg:last-child {
     transform: rotate(180deg);
   }
   .mobile-family-list {
-    margin: 4px 0 6px 8px;
-    padding-left: 7px;
-    border-left: 3px solid var(--seasonal-button, var(--blue));
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 8px 12px 12px;
+    padding: 0;
+    border-left: 0;
   }
   .mobile-family-list button,
   .mobile-family-list a {
-    min-height: 34px;
-    padding: 7px 6px;
-    border-bottom: 0;
-    font-size: 12px;
-    font-weight: 600;
+    width: auto;
+    min-height: 32px;
+    padding: 6px 11px;
+    border: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 18%, transparent);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 11px;
+    font-weight: 650;
   }
   .mobile-family-list a {
     color: var(--seasonal-button, var(--blue));
@@ -4383,10 +4486,10 @@ footer {
   }
   .mobile-nav-list b {
     margin-left: auto;
-    min-width: 18px;
-    height: 18px;
-    padding: 0 4px;
-    border-radius: 9px;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 10px;
     background: var(--seasonal-button, var(--yellow));
     color: var(--seasonal-button-ink, var(--navy));
     font-size: 10px;
@@ -4401,9 +4504,29 @@ footer {
     opacity: 0.5;
     cursor: not-allowed;
   }
-  .mobile-nav-list .mobile-nav-close {
+  .mobile-nav-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: auto;
+    padding: 14px 16px;
+    border-top: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 12%, transparent);
+    background: color-mix(in srgb, var(--seasonal-button, var(--blue)) 7%, transparent);
+  }
+  .mobile-nav-foot a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
     color: var(--seasonal-button, var(--blue));
+    font-size: 12px;
     font-weight: 800;
+    text-decoration: none;
+  }
+  .mobile-nav-foot > span {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 600;
   }
   .nav-inner > a {
     padding: 12px 8px;
