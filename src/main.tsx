@@ -17,6 +17,7 @@ import "./budget-search.css";
 import "./product-ordering.css";
 import "./classic-theme.css";
 import "./admin-workspace.css";
+import "./menu-style.css";
 import { registerServiceWorker } from "./pwa";
 registerServiceWorker();
 createRoot(document.getElementById("root")!).render(<App />);

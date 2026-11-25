@@ -408,7 +408,7 @@ export function SettingsManager() {
               "themes",
               <ThemeSettings
                 settings={s}
-                onChange={edit("storefront_theme")}
+                onChange={edit("storefront_theme", "menu_style")}
               />,
             )}
             {panel(

@@ -8,7 +8,10 @@ const scrypt = promisify(crypto.scrypt);
 const { defaultSettings } = require("./generated/defaults.cjs");
 const { validateSlideComposition } = require("./generated/slider.cjs");
 const { validateMediaSettings } = require("./generated/media.cjs");
-const { validateStorefrontTheme } = require("./generated/seasonalTheme.cjs");
+const {
+  validateStorefrontMenuStyle,
+  validateStorefrontTheme,
+} = require("./generated/seasonalTheme.cjs");
 const {
   MAX_MANUAL_POSITION,
   planProductPosition,
@@ -409,6 +412,8 @@ function createLocalStore({
       p.storefront_theme = settings().storefront_theme;
     const themeError = validateStorefrontTheme(p.storefront_theme);
     assert(!themeError, themeError);
+    const menuStyleError = validateStorefrontMenuStyle(p.menu_style);
+    assert(!menuStyleError, menuStyleError);
     for (const key of [
       "topbar_tagline",
       "youtube_url",

@@ -103,8 +103,10 @@ export type StorefrontTheme =
   | "ramadan-ivory"
   | "newyear-snow"
   | "newyear-midnight";
+export type StorefrontMenuStyle = "floating" | "classic" | "sheet";
 export interface Settings {
   storefront_theme?: StorefrontTheme;
+  menu_style?: StorefrontMenuStyle;
   topbar_tagline?: string;
   youtube_url?: string;
   videos_enabled?: boolean;

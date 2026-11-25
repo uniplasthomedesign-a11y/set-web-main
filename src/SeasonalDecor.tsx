@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useStore } from "./store";
-import { storefrontTheme } from "./seasonalTheme";
+import { storefrontMenuStyle, storefrontTheme } from "./seasonalTheme";
 import "./seasonal-decor.css";
 
 function RamadanEdge() {
@@ -97,19 +97,26 @@ function WinterEdge() {
 export function SeasonalDecor({ active = true }: { active?: boolean }) {
   const { catalog } = useStore();
   const theme = active ? storefrontTheme(catalog?.settings || {}) : "classic";
+  const menuStyle = active
+    ? storefrontMenuStyle(catalog?.settings || {})
+    : "floating";
   useEffect(() => {
     if (!active) {
       delete document.documentElement.dataset.storefrontTheme;
+      delete document.documentElement.dataset.menuStyle;
       return;
     }
     document.documentElement.dataset.storefrontTheme = theme;
+    document.documentElement.dataset.menuStyle = menuStyle;
     try {
       localStorage.setItem("uniplast.storefront-theme.v1", theme);
+      localStorage.setItem("uniplast.menu-style.v1", menuStyle);
     } catch {}
     return () => {
       delete document.documentElement.dataset.storefrontTheme;
+      delete document.documentElement.dataset.menuStyle;
     };
-  }, [active, theme]);
+  }, [active, theme, menuStyle]);
   if (theme === "classic") return null;
   const ramadan = theme.startsWith("ramadan");
   return (

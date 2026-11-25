@@ -27,6 +27,12 @@
           ].indexOf(t) !== -1
         )
           document.documentElement.dataset.storefrontTheme = t;
+        var m = localStorage.getItem("uniplast.menu-style.v1");
+        if (
+          !location.hash.startsWith("#/admin") &&
+          ["floating", "classic", "sheet"].indexOf(m) !== -1
+        )
+          document.documentElement.dataset.menuStyle = m;
       } catch (_) {}
     </script>
   </head>

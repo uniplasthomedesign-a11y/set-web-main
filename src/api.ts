@@ -17,7 +17,10 @@ import type {
 import { defaultSettings } from "./catalog";
 import { watchCatalogActivity } from "./catalogSync";
 import { validateSlideComposition } from "./slider";
-import { validateStorefrontTheme } from "./seasonalTheme";
+import {
+  validateStorefrontMenuStyle,
+  validateStorefrontTheme,
+} from "./seasonalTheme";
 import { planProductPosition } from "./productOrdering";
 import {
   localMode,
@@ -660,6 +663,8 @@ export async function reorderFamilies(ids: string[]) {
 export async function saveSettings(settings: Settings) {
   const themeError = validateStorefrontTheme(settings.storefront_theme);
   if (themeError) throw new Error(themeError);
+  const menuStyleError = validateStorefrontMenuStyle(settings.menu_style);
+  if (menuStyleError) throw new Error(menuStyleError);
   for (const h of settings.heroes) {
     const problem = validateSlideComposition(h);
     if (problem) throw new Error(problem);
@@ -716,6 +721,9 @@ export async function saveSettings(settings: Settings) {
       ...settings,
       ...(settings.storefront_theme === undefined
         ? { storefront_theme: memory.settings.storefront_theme }
+        : {}),
+      ...(settings.menu_style === undefined
+        ? { menu_style: memory.settings.menu_style }
         : {}),
     });
     return;

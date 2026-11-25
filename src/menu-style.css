@@ -1,0 +1,92 @@
+html[data-menu-style] {
+  --menu-panel-ink: var(--seasonal-nav-ink, var(--ink, #1d2d47));
+  --menu-panel-bg: var(--seasonal-nav-background, #fff);
+  --menu-panel-accent: var(--seasonal-button, var(--blue, #254496));
+  --menu-panel-border: color-mix(
+    in srgb,
+    var(--menu-panel-accent) 18%,
+    transparent
+  );
+  --menu-panel-radius: 22px;
+  --menu-panel-shadow: 0 18px 48px rgba(5, 18, 42, 0.16);
+  --menu-panel-blur: blur(12px);
+}
+html[data-menu-style="floating"] {
+  --menu-panel-radius: 22px;
+  --menu-panel-shadow: 0 18px 48px rgba(5, 18, 42, 0.16);
+  --menu-panel-blur: blur(12px);
+}
+html[data-menu-style="classic"] {
+  --menu-panel-radius: 0px;
+  --menu-panel-shadow: none;
+  --menu-panel-blur: none;
+}
+html[data-menu-style="sheet"] {
+  --menu-panel-radius: 20px 20px 0 0;
+  --menu-panel-shadow: 0 -14px 42px rgba(5, 18, 42, 0.2);
+  --menu-panel-blur: blur(14px);
+}
+html[data-menu-style] .family-dropdown {
+  color: var(--menu-panel-ink);
+  background: var(--menu-panel-bg);
+  border-color: var(--menu-panel-border);
+  border-radius: var(--menu-panel-radius);
+  box-shadow: var(--menu-panel-shadow);
+  backdrop-filter: var(--menu-panel-blur);
+}
+html[data-menu-style] .family-dropdown button:hover {
+  color: var(--menu-panel-accent);
+  background: color-mix(in srgb, var(--menu-panel-accent) 9%, transparent);
+}
+@media (max-width: 640px) {
+  html[data-menu-style] .navigation {
+    top: calc(100% + 8px);
+    left: 8px;
+    width: min(calc(100vw - 24px), 340px);
+    min-height: 0;
+    max-height: calc(100vh - 116px);
+    border-color: var(--menu-panel-border);
+    border-radius: var(--menu-panel-radius);
+    background: var(--menu-panel-bg);
+    box-shadow: var(--menu-panel-shadow);
+    backdrop-filter: var(--menu-panel-blur);
+    transform: translateY(-8px) scale(0.99);
+  }
+  html[data-menu-style] .navigation.mobile-open {
+    transform: none;
+  }
+  html[data-menu-style] .mobile-nav-hero {
+    border-radius: var(--menu-panel-radius) var(--menu-panel-radius) 0 0;
+  }
+  html[data-menu-style] .mobile-nav-scrim {
+    background: linear-gradient(
+      120deg,
+      color-mix(in srgb, var(--menu-panel-accent) 24%, transparent),
+      color-mix(in srgb, var(--navy, #172b56) 20%, transparent)
+    );
+  }
+  html[data-menu-style="classic"] body.mobile-nav-open {
+    overflow: auto;
+  }
+  html[data-menu-style="classic"] .mobile-nav-scrim {
+    display: none;
+  }
+  html[data-menu-style="classic"] .navigation {
+    top: 100%;
+    left: 0;
+    width: 4.5cm;
+    min-height: 13cm;
+    max-height: 17cm;
+    border-color: var(--menu-panel-accent);
+    background: var(--menu-panel-bg);
+  }
+  html[data-menu-style="classic"] .mobile-nav-hero {
+    border-radius: 0;
+  }
+  html[data-menu-style="sheet"] .navigation {
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    max-height: calc(100vh - 92px);
+  }
+}

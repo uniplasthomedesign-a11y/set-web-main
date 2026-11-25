@@ -82,6 +82,7 @@ export const familyDraftFields = [
 ] as const;
 export const settingsDraftFields = [
   "storefront_theme",
+  "menu_style",
   "topbar_tagline",
   "youtube_url",
   "videos_enabled",

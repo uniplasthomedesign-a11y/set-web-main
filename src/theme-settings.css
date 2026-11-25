@@ -136,3 +136,72 @@
 .theme-option-preview[data-theme="newyear-snow"] .theme-preview-decoration {
   color: #286752;
 }
+.menu-style-options {
+  margin-top: 4px;
+}
+.menu-style-option {
+  gap: 8px;
+}
+.menu-style-option > input {
+  right: 16px;
+  top: 16px;
+}
+.menu-style-preview {
+  --menu-preview-accent: #164b81;
+  position: relative;
+  display: block;
+  height: 112px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: linear-gradient(120deg, #eaf3fb, #edf8f3);
+  box-shadow: inset 0 0 0 1px #bdd2e2;
+}
+.menu-style-preview-bar {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 28px;
+  background: var(--menu-preview-accent);
+}
+.menu-style-preview-panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+.menu-style-preview-panel i {
+  display: block;
+  height: 5px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--menu-preview-accent) 28%, #fff);
+}
+.menu-style-preview-panel i:first-child {
+  width: 70%;
+  background: var(--menu-preview-accent);
+}
+.menu-style-preview[data-menu-style="floating"] .menu-style-preview-panel {
+  top: 38px;
+  left: 26px;
+  width: 62%;
+  box-shadow: 0 8px 20px #00000026;
+  border-radius: 12px;
+  background: #fff;
+  backdrop-filter: blur(4px);
+}
+.menu-style-preview[data-menu-style="classic"] .menu-style-preview-panel {
+  top: 28px;
+  left: 0;
+  width: 42%;
+  min-height: 74px;
+  background: #fff;
+  border-right: 2px solid var(--menu-preview-accent);
+}
+.menu-style-preview[data-menu-style="sheet"] .menu-style-preview-panel {
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px 16px 0 0;
+  background: #fff;
+  box-shadow: 0 -8px 22px #00000024;
+}
