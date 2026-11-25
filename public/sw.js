@@ -1,4 +1,4 @@
-const CACHE = "uniplast-shell-v1";
+const CACHE = "uniplast-shell-v2";
 const SHELL = [
   "/",
   "/index.html",

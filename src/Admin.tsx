@@ -2240,6 +2240,7 @@ function OrderManager({
   const [q, setQ] = useState(""),
     [status, setStatus] = useState(""),
     [selected, setSelected] = useState<Order | null>(null),
+    [removing, setRemoving] = useState<Order | null>(null),
     [changing, setChanging] = useState(false);
   const filtered = orders.filter(
     (o) =>
@@ -2255,6 +2256,21 @@ function OrderManager({
       await reload();
       if (selected?.id === order.id)
         setSelected({ ...order, status: value as Order["status"] });
+    } catch (e) {
+      notify((e as Error).message, true);
+    } finally {
+      setChanging(false);
+    }
+  };
+  const remove = async () => {
+    if (!removing) return;
+    setChanging(true);
+    try {
+      await api.deleteOrder(removing.id);
+      if (selected?.id === removing.id) setSelected(null);
+      setRemoving(null);
+      await reload();
+      notify("Commande supprimée.");
     } catch (e) {
       notify((e as Error).message, true);
     } finally {
@@ -2356,13 +2372,23 @@ function OrderManager({
                       </select>
                     </td>
                     <td>
-                      <button
-                        className="icon-btn"
-                        aria-label={"Consulter " + o.reference}
-                        onClick={() => setSelected(o)}
-                      >
-                        <FileText size={18} />
-                      </button>
+                      <div className="order-row-actions">
+                        <button
+                          className="icon-btn"
+                          aria-label={"Consulter " + o.reference}
+                          onClick={() => setSelected(o)}
+                        >
+                          <FileText size={18} />
+                        </button>
+                        <button
+                          className="icon-btn danger"
+                          aria-label={"Supprimer " + o.reference}
+                          title="Supprimer la commande"
+                          onClick={() => setRemoving(o)}
+                        >
+                          <Trash2 size={17} />
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -2384,6 +2410,33 @@ function OrderManager({
         >
           <InvoiceActions order={selected} />
           <InvoicePaper order={selected} />
+        </Modal>
+      )}
+      {removing && (
+        <Modal
+          title="Supprimer la commande ?"
+          onClose={() => setRemoving(null)}
+        >
+          <p>
+            La commande « {removing.reference} » sera définitivement supprimée.
+            Les quantités réservées seront restaurées dans le stock.
+          </p>
+          <div className="dialog-action-stack">
+            <button
+              className="btn btn-danger"
+              disabled={changing}
+              onClick={() => void remove()}
+            >
+              {changing ? <Spinner /> : <Trash2 size={16} />}
+              Supprimer la commande
+            </button>
+            <button
+              className="btn btn-outline"
+              onClick={() => setRemoving(null)}
+            >
+              Conserver
+            </button>
+          </div>
         </Modal>
       )}
     </>

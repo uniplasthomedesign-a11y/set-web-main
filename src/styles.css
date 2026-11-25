@@ -4293,8 +4293,8 @@ footer {
     inset: 0;
     z-index: 39;
     border: 0;
-    background: linear-gradient(120deg, rgba(7, 19, 41, 0.58), rgba(9, 30, 66, 0.32));
-    backdrop-filter: blur(3px);
+    background: linear-gradient(120deg, rgba(7, 19, 41, 0.28), rgba(9, 30, 66, 0.14));
+    backdrop-filter: blur(2px);
     animation: mobile-scrim-in 0.18s ease both;
   }
   @keyframes mobile-scrim-in {
@@ -4311,10 +4311,11 @@ footer {
     max-height: calc(100vh - 116px);
     overflow-y: auto;
     overscroll-behavior: contain;
-    border: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 20%, transparent);
+    border: 1px solid color-mix(in srgb, var(--seasonal-nav-ink, var(--blue)) 14%, transparent);
     border-radius: 22px;
-    background: linear-gradient(155deg, var(--seasonal-nav-background, #fff) 0%, color-mix(in srgb, var(--seasonal-button, var(--blue)) 4%, #fff) 100%);
-    box-shadow: 0 26px 70px rgba(5, 18, 42, 0.28);
+    background: color-mix(in srgb, var(--seasonal-nav-background, #fff) 96%, transparent);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 48px rgba(5, 18, 42, 0.16);
     visibility: hidden;
     opacity: 0;
     transform: translateY(-12px) scale(0.98);
@@ -4393,6 +4394,30 @@ footer {
     font-size: 11px;
     font-weight: 500;
     line-height: 1.45;
+  }
+  .mobile-nav-hero .mobile-nav-client {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    color: #a6ffc8;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .mobile-nav-hero .mobile-nav-client::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #79ffae;
+    box-shadow: 0 0 10px rgba(121, 255, 174, 0.85);
   }
   .mobile-nav-hero-close {
     position: absolute;
@@ -4503,6 +4528,16 @@ footer {
   .mobile-nav-list button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+  }
+  .mobile-nav-list > .mobile-nav-sync {
+    gap: 10px;
+    color: #147a4c;
+    background: color-mix(in srgb, #24c77a 12%, transparent);
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .mobile-nav-list > .mobile-nav-sync > svg {
+    color: #129b5f;
   }
   .mobile-nav-foot {
     display: flex;

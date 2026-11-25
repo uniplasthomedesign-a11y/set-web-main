@@ -226,6 +226,27 @@ test("Netlify: durable snapshots, private access and concurrent orders", async (
       );
     },
   );
+  await t.test("admin deletes an order through Netlify Functions", async () => {
+    const before = (await f.call("orders-list", {}, "client")).data.length;
+    const created = (
+      await f.call(
+        "order-create",
+        { ...orderPayload, key: randomUUID() },
+        "client",
+      )
+    ).data;
+    assert.equal(
+      (await f.call("order-delete", { id: created.id }, "client")).status,
+      403,
+    );
+    assert.equal((await f.call("order-delete", { id: created.id })).status, 200);
+    assert.equal((await f.call("orders-list", {}, "client")).data.length, before);
+    assert.equal(
+      (await f.call("catalog")).data.products.find((p) => p.id === product.id)
+        .stock_cartons,
+      1,
+    );
+  });
   await t.test(
     "uploaded PDFs remain durable and private after all temporary folders vanish",
     async () => {

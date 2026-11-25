@@ -825,6 +825,25 @@ export async function changeOrderStatus(id: string, status: OrderStatus) {
   });
   if (error) fail(error);
 }
+export async function deleteOrder(id: string) {
+  if (localMode) return localCall("order-delete", { id });
+  if (previewMode) {
+    if (!previewAdmin) throw new Error("Accès non autorisé.");
+    const index = previewOrders.findIndex((o) => o.id === id);
+    if (index < 0) throw new Error("Commande introuvable.");
+    const order = previewOrders[index];
+    if (order.status !== "cancelled")
+      order.items.forEach((item) => {
+        const product = memory.products.find((p) => p.id === item.product_id);
+        if (product && product.stock_cartons !== null)
+          product.stock_cartons += item.cartons;
+      });
+    previewOrders.splice(index, 1);
+    return;
+  }
+  const { error } = await supabase!.rpc("delete_order", { p_order_id: id });
+  if (error) fail(error);
+}
 export async function listRequests(): Promise<RequestRecord[]> {
   if (localMode) return localCall<RequestRecord[]>("requests-list", {});
   if (previewMode) return structuredClone(previewRequests);

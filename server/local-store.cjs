@@ -1226,13 +1226,22 @@ function createLocalStore({
                 totals.total <= 100000000000,
               "Total trop élevé.",
             );
+            const usedReferences = all("order").map((o) =>
+              Number(String(o.reference).split("-").pop()) || 0,
+            );
+            const sequence =
+              Math.max(
+                Number(meta("order-sequence") || 0),
+                usedReferences.length ? Math.max(...usedReferences) : 0,
+              ) + 1;
+            setMeta("order-sequence", sequence);
             const order = {
               id: uid(),
               reference:
                 "UNI-" +
                 new Date().getFullYear() +
                 "-" +
-                String(all("order").length + 1).padStart(6, "0"),
+                String(sequence).padStart(6, "0"),
               user_id: s.owner,
               created_at: nowISO(),
               status: "new",
@@ -1294,6 +1303,29 @@ function createLocalStore({
                   });
               });
             put("order", { ...o, status: p.status });
+          });
+          break;
+        case "order-delete":
+          admin(s);
+          transaction(() => {
+            const o = get("order", p.id);
+            assert(o, "Commande introuvable.");
+            if (o.status !== "cancelled")
+              o.items.forEach((i) => {
+                const prod = get("product", i.product_id);
+                if (
+                  prod &&
+                  prod.stock_cartons !== null &&
+                  o.stock_reserved_ids?.includes(i.product_id)
+                )
+                  put("product", {
+                    ...prod,
+                    stock_cartons: prod.stock_cartons + i.cartons,
+                  });
+              });
+            db.prepare("DELETE FROM documents WHERE kind='order' AND id=?").run(
+              o.id,
+            );
           });
           break;
         case "requests-list":

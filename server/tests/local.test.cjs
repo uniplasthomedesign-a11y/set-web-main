@@ -440,6 +440,65 @@ test("local store: real persistence, private prices, PIN access and immutable or
       },
     );
     await t.test(
+      "admin deletes an order, restores stock and never reuses its reference",
+      async () => {
+        assert.equal((await call("product-save", product)).status, 200);
+        assert.equal(
+          (
+            await call("codes-save", {
+              id: codeId,
+              name: "Client test",
+              phone: "0550000000",
+              pin: "654321",
+              enabled: true,
+            })
+          ).status,
+          200,
+        );
+        assert.equal(
+          (
+            await call(
+              "client-login",
+              { phone: "+213550000000", pin: "654321" },
+              "newDevice",
+            )
+          ).status,
+          200,
+        );
+        const before = (await call("orders-list", {})).data.length;
+        const created = await call(
+          "order-create",
+          { ...payload, key: crypto.randomUUID() },
+          "newDevice",
+        );
+        assert.equal(created.status, 200, JSON.stringify(created.data));
+        const first = created.data;
+        assert.equal(
+          (await call("order-delete", { id: first.id }, "newDevice")).status,
+          403,
+        );
+        assert.equal((await call("order-delete", { id: first.id })).status, 200);
+        assert.equal((await call("orders-list", {})).data.length, before);
+        assert.equal(
+          (await call("catalog")).data.products.find((p) => p.id === product.id)
+            .stock_cartons,
+          10,
+        );
+        const second = (
+          await call(
+            "order-create",
+            { ...payload, key: crypto.randomUUID() },
+            "newDevice",
+          )
+        ).data;
+        assert.notEqual(second.reference, first.reference);
+        assert.equal(
+          (await call("order-delete", { id: second.id })).status,
+          200,
+        );
+      },
+    );
+    await t.test(
       "admin password change invalidates old admin sessions and persists",
       async () => {
         await call(

@@ -21,6 +21,7 @@ import {
   Menu,
   Package,
   Phone,
+  RefreshCw,
   ScanLine,
   Search,
   ShieldCheck,
@@ -48,7 +49,7 @@ import {
 } from "./domain";
 import { navigate, useStore } from "./store";
 import { Badges, Empty, Modal, ProductPhoto, Quantity, buyLabel } from "./ui";
-import { previewMode } from "./api";
+import { customerSession, previewMode } from "./api";
 import { FamilyLanding } from "./FeatureControls";
 import { VideoSection } from "./VideoFeatures";
 import { SeasonalNavigation } from "./SeasonalNavigation";
@@ -87,14 +88,57 @@ export function Header({
   openScanner: () => void;
   openClientLogin: () => void;
 }) {
-  const { catalog, cart, clientApproved, isFavorite } = useStore();
+  const {
+    catalog,
+    cart,
+    clientApproved,
+    isFavorite,
+    refresh,
+    checkAdmin,
+    clearAccessView,
+    notify,
+  } = useStore();
   const [search, setSearch] = useState(""),
     [menu, setMenu] = useState(false),
     [families, setFamilies] = useState(false),
-    [contactOpen, setContactOpen] = useState(false);
+    [contactOpen, setContactOpen] = useState(false),
+    [clientName, setClientName] = useState(""),
+    [syncing, setSyncing] = useState(false);
   const clicks = useRef<number[]>([]);
   const menuToggle = useRef<HTMLButtonElement>(null);
   const familyToggle = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    if (!clientApproved) {
+      setClientName("");
+      return;
+    }
+    let active = true;
+    void customerSession()
+      .then((session) => {
+        if (active) setClientName(session.access?.name || "");
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+  }, [clientApproved]);
+  const syncPrices = async () => {
+    if (!clientApproved || syncing) return;
+    setSyncing(true);
+    try {
+      clearAccessView();
+      await refresh(true);
+      await checkAdmin();
+      void customerSession().then((session) =>
+        setClientName(session.access?.name || ""),
+      );
+      notify("Tarifs et catalogue synchronisés.");
+    } catch (e) {
+      notify((e as Error).message, true);
+    } finally {
+      setSyncing(false);
+    }
+  };
   const closeMenus = () => {
     setMenu(false);
     setFamilies(false);
@@ -411,6 +455,13 @@ export function Header({
                 <span>Navigation</span>
                 <strong>UNIPLAST</strong>
                 <small>{catalog.settings.topbar_tagline ?? DEFAULT_TAGLINE}</small>
+                {clientApproved && (
+                  <span className="mobile-nav-client">
+                    {clientName
+                      ? `Connecté : ${clientName}`
+                      : "Client agréé connecté"}
+                  </span>
+                )}
                 <button
                   type="button"
                   className="mobile-nav-hero-close"
@@ -487,6 +538,17 @@ export function Header({
               <a href="#/catalogue-pdf">
                 <ArrowUpRight size={16} aria-hidden="true" /> PDF des produits
               </a>
+              {clientApproved && (
+                <button
+                  type="button"
+                  className="mobile-nav-sync"
+                  disabled={syncing}
+                  onClick={() => void syncPrices()}
+                >
+                  <RefreshCw size={16} aria-hidden="true" />
+                  {syncing ? "Synchronisation…" : "Synchroniser les tarifs"}
+                </button>
+              )}
               <div className="mobile-nav-foot">
                 {catalog.settings.phone ? (
                   <a href={"tel:" + catalog.settings.phone}>
